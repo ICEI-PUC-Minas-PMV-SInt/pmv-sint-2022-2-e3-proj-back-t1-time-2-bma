@@ -100,3 +100,10 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 > - [Lucidchart](https://www.lucidchart.com/)
 > - [Astah](https://astah.net/)
 > - [Diagrams](https://app.diagrams.net/)
+
+![caso de uso area do funcionario](https://user-images.githubusercontent.com/89482697/188513759-d927f7c7-aa6d-442a-af5a-1290dc3f50a7.png)
+<p align = "center">Figura 1: Diagrama de Casos de Uso - Funcionário</p>
+
+![caso de uso beneficiario](https://user-images.githubusercontent.com/89482697/188514534-922cf9bb-2fa3-4690-bc39-9f6532616c1e.png)
+<p align = "center"> Figura 2: Diagrama de Casos de Uso - Beneficiário</p>
+
