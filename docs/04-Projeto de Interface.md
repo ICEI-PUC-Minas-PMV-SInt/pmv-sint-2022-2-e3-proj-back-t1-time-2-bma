@@ -1,17 +1,22 @@
 
 # Projeto de Interface
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
 
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
+Nesta single page há um Navbar onde é possível que o usuário navegue em:
+
+* Sobre Nós: onde é apresentado um pouco da história do Banco De Alimentos de poços de caldas. 
+
+* Parceiros: onde é encontrado informações sobre os Parceiros que contribuem com as doações do projeto social. 
+
+* Portal do Funcionário/Administrador: onde somente os administradores munidos de login e senha possam cadastrar/excluir/alterar beneficiários e funcionários, bem como cadastrar as doações de cestas. 
+
+* Portal do Beneficiário: onde os beneficiários cadastrados realizam login com seu CPF para consultar o histórico de cestas retirados por ele, bem como a data de sua próxima retirada de cestas.
+
 
 ## Diagrama de Fluxo
 
-O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema interativo e  muitas vezes sem a necessidade do desenho do design das telas da interface. Isso permite que o design das interações seja bem planejado e gere impacto na qualidade no design do wireframe interativo que será desenvolvido logo em seguida.
-
-O diagrama de fluxo pode ser desenvolvido com “boxes” que possuem internamente a indicação dos principais elementos de interface - tais como menus e acessos - e funcionalidades, tais como editar, pesquisar, filtrar, configurar - e a conexão entre esses boxes a partir do processo de interação. Você pode ver mais explicações e exemplos https://www.lucidchart.com/blog/how-to-make-a-user-flow-diagram.
+O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema interativo.
 
 ![Exemplo de Diagrama de Fluxo](img/UserflowBma.jpg)
 
