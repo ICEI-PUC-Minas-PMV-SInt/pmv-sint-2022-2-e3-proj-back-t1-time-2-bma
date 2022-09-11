@@ -5,7 +5,7 @@
 
 Nesta single page há um Navbar onde é possível que o usuário navegue em:
 
-* Sobre Nós: onde é apresentado um pouco da história do Banco De Alimentos de poços de caldas. 
+* Sobre Nós: onde é apresentado um pouco da história do Banco De Alimentos de Poços de Caldas. 
 
 * Parceiros: onde é encontrado informações sobre os Parceiros que contribuem com as doações do projeto social. 
 
