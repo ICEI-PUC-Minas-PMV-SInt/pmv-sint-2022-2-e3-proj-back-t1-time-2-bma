@@ -36,7 +36,7 @@ Para desenvolver uma Aplicação Web adequada, utilizamos a ferramenta de contro
    <tr>
    <td>Projeto de Interface e Wireframes</td>
    <td>Figma</td>
-   <td></td>
+   <td>https://www.figma.com/file/mnIXhxdONPXOxMdGHJrJBV/Untitled?node-id=0%3A1</td>
   </tr>
  </tbody>
  </table>
@@ -63,11 +63,10 @@ etiquetas:
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
 
-Todo desenvolvimento de recursos deve ocorrer em uma ramificação dedicada a cada desenvolvedor, sem interferir no código principal. A main da aplicação estará disponível para o time e cada participante manterá as versões em suas branches, enviando arquivos novos através dos commits. 
+Todo desenvolvimento de recursos deve ocorrer em uma ramificação dedicada a cada desenvolvedor, sem interferir no código principal. A main da aplicação estará disponível para o time e cada participante manterá as versões em suas branches. As atualizações serão enviadas através de commits para o repositório central, que após finalizar e fazer a solicitação pull, será mesclado no projeto por meio das merges. As tags serão utilizadas para destacar estágios do desenvolvimento de algum recurso.
 
-As tags serão utilizadas para destacar estágios do desenvolvimento de algum recurso.
-
---img
+![Metodologia](img/fluxo.svg)
+Fonte:https://www.atlassian.com/br/git/tutorials/comparing-workflows/feature-branch-workflow
 
 
 ## Gerenciamento de Projeto
@@ -94,7 +93,7 @@ Para esse projeto ocorrerão reuniões semanais entre a equipe de desenvolvedore
 
 Os backlogs do produto, bem como a entrega dos processos em cada Sprint, serão gerenciados e organizados por meio dos quadros de projeto fornecidos no GitHub com a utilização do modelo de Kanban automatizado. Este facilita o manejo dos backlogs do produto, organizando-os em cada sprint, além de permitir a atribuição das tarefas para cada membro da equipe.
 
---img
+![Metodologia](img/git_projects.png)
  
 
 ### Ferramentas
