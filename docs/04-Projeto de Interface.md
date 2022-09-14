@@ -23,11 +23,13 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema 
 
 ## Wireframes
 
-## Home- Page: A tela Home apresenta opções de Navegação em Sobre Nós, Parceiros, Portal do Funcionário e Beneficiário.
+## Home- Page: 
+A tela Home apresenta opções de Navegação em Sobre Nós, Parceiros, Portal do Funcionário e Beneficiário.
 
 ![Exemplo de Wireframe](img/Home.png)
 
-## Painel Administrador: Permite o acesso pelos administradores/funcionários ao Cadastro de Beneficiários, Cadastro de Doações e Cadastro de Funcionários.
+## Painel Administrador: 
+Permite o acesso pelos administradores/funcionários ao Cadastro de Beneficiários (cadastro das pessoas beneficiadas pelo projeto social), Cadastro de Doações (cadastro das doações recebidas pelos beneficiados) e Cadastro de Funcionários (cadastro de colaboradores internos).
 
 ![Exemplo de Wireframe](img/PainelAdministrador.png)
 ![Exemplo de Wireframe](img/CadastroBeneficiario.png)
@@ -35,7 +37,8 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema 
 ![Exemplo de Wireframe](img/CadastroDoacoes.png)
 ![Exemplo de Wireframe](img/CadastroFuncionario.png)
 
-## Portal do Beneficiário: Permite acesso ao usuário externo (Beneficiário das Cestas) através do CPF, consultar a data das próximas cestas e  histórico de cestas retiradas.
+## Portal do Beneficiário: 
+Permite acesso ao usuário externo (Beneficiário das Cestas) através do CPF, consultar a data das próximas cestas e  histórico de cestas retiradas.
 
 ![Exemplo de Wireframe](img/LoginBeneficiario.png)
 ![Exemplo de Wireframe](img/MinhaCesta.png)
