@@ -358,7 +358,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Diagrama de Casos de Uso
 
-Para facilitar a elicitação dos requisitos do sistema, optou-se pela separação dos diagramas de caso de uso nos dois atores primários que utilizarão o sistema: o Funcionário/Usuário e o Beneficiário. Tal escolha deve-se ao fato de que cada um desses atores irão irão interagir com partes distintas do sistema, conforme os diagramas a seguir.
+Para facilitar a elicitação dos requisitos do sistema, optou-se pela separação dos diagramas de caso de uso nos três atores primários que utilizarão o sistema: o Funcionário/Usuário, o Beneficiário e Administrador do Sistema. Tal escolha deve-se ao fato de que cada um desses atores irão interagir com partes distintas do sistema, conforme os diagramas a seguir.
 
 ![caso de uso funcionario atualizado](https://user-images.githubusercontent.com/89482697/190266287-1dd95d1f-9218-476e-93fa-0358d13e6fea.png)
 <p align = "center">Figura 1: Diagrama de Casos de Uso - Funcionário</p>
