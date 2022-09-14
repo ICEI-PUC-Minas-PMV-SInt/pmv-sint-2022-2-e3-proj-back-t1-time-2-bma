@@ -320,10 +320,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-008| Restringir a retirada de cesta, conforme periodicidade estabelecida pelo município| ALTA |
 |RF-009| Permitir que o usuário visualize histórico de retirada dos beneficiários| MÉDIA |
 |RF-010| Permitir que o usuário realize a redefinição de senha| MÉDIA |
-|RF-011| Tela informativa sobre o programa de entrega das cestas| BAIXA |
-|RF-012| Permitir o controle de estoque de cestas básicas| ALTA |
-|RF-013| Apresentar prestação de contas das ações do Banco de Alimentos| ALTA |
-|RF-014| Registrar a quantidade de alimentos doados| ALTA |
+|RF-011| Consultar data de recebimento de cesta| BAIXA |
+|RF-012| Consultar local de retirada de cesta| ALTA |
+|RF-013| Consultar recebimento de cesta | ALTA |
+
 
 
 
