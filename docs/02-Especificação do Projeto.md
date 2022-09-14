@@ -360,9 +360,13 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 Para facilitar a elicitação dos requisitos do sistema, optou-se pela separação dos diagramas de caso de uso nos dois atores primários que utilizarão o sistema: o Funcionário/Usuário e o Beneficiário. Tal escolha deve-se ao fato de que cada um desses atores irão irão interagir com partes distintas do sistema, conforme os diagramas a seguir.
 
-![caso de uso area do funcionario](https://user-images.githubusercontent.com/89482697/188513759-d927f7c7-aa6d-442a-af5a-1290dc3f50a7.png)
+![caso de uso funcionario atualizado](https://user-images.githubusercontent.com/89482697/190266287-1dd95d1f-9218-476e-93fa-0358d13e6fea.png)
 <p align = "center">Figura 1: Diagrama de Casos de Uso - Funcionário</p>
 
 ![caso de uso beneficiario](https://user-images.githubusercontent.com/89482697/188514534-922cf9bb-2fa3-4690-bc39-9f6532616c1e.png)
 <p align = "center"> Figura 2: Diagrama de Casos de Uso - Beneficiário</p>
+
+![caso de uso administrador](https://user-images.githubusercontent.com/89482697/190266339-3bcef49a-7b74-4876-9c72-fb06df733b94.png)
+<p align = "center"> Figura 3: Diagrama de Casos de Uso - Administrador</p>
+
 
