@@ -1,7 +1,7 @@
 
 # Projeto de Interface
 
-
+Está single page foi projetada mantendo a identidade visual do Banco de Alimentos de Poços de Caldas com intuito de funcionamento em desktops, com foco na acessibilidade, agilidade e usabilidade.
 
 Nesta single page há um Navbar onde é possível que o usuário navegue em:
 
@@ -23,12 +23,20 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema 
 
 ## Wireframes
 
+## Home- Page: A tela Home apresenta opções de Navegação em Sobre Nós, Parceiros, Portal do Funcionário e Beneficiário.
+
 ![Exemplo de Wireframe](img/Home.png)
+
+## Painel Administrador: Permite o acesso pelos administradores/funcionários ao Cadastro de Beneficiários, Cadastro de Doações e Cadastro de Funcionários.
+
 ![Exemplo de Wireframe](img/PainelAdministrador.png)
 ![Exemplo de Wireframe](img/CadastroBeneficiario.png)
 ![Exemplo de Wireframe](img/CadastroBeneficiario2.png)
 ![Exemplo de Wireframe](img/CadastroDoacoes.png)
 ![Exemplo de Wireframe](img/CadastroFuncionario.png)
+
+## Portal do Beneficiário: Permite acesso ao usuário externo (Beneficiário das Cestas) através do CPF, consultar a data das próximas cestas e  histórico de cestas retiradas.
+
 ![Exemplo de Wireframe](img/LoginBeneficiario.png)
 ![Exemplo de Wireframe](img/MinhaCesta.png)
 
