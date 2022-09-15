@@ -360,13 +360,13 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 Para facilitar a elicitação dos requisitos do sistema, optou-se pela separação dos diagramas de caso de uso nos três atores primários que utilizarão o sistema: o Funcionário/Usuário, o Beneficiário e Administrador do Sistema. Tal escolha deve-se ao fato de que cada um desses atores irão interagir com partes distintas do sistema, conforme os diagramas a seguir.
 
-![caso de uso funcionario atualizado](https://user-images.githubusercontent.com/89482697/190266287-1dd95d1f-9218-476e-93fa-0358d13e6fea.png)
+![caso de uso area do funcionario](https://user-images.githubusercontent.com/89482697/190486269-1eee09f6-f33c-4fff-867e-b38e26a13376.png)
 <p align = "center">Figura 1: Diagrama de Casos de Uso - Funcionário</p>
 
-![caso de uso beneficiario](https://user-images.githubusercontent.com/89482697/188514534-922cf9bb-2fa3-4690-bc39-9f6532616c1e.png)
+![caso de uso beneficiario](https://user-images.githubusercontent.com/89482697/190486345-9f2558ac-aa65-4536-96a7-fe4523127470.png)
 <p align = "center"> Figura 2: Diagrama de Casos de Uso - Beneficiário</p>
 
-![caso de uso administrador](https://user-images.githubusercontent.com/89482697/190266339-3bcef49a-7b74-4876-9c72-fb06df733b94.png)
+![caso de uso administrador](https://user-images.githubusercontent.com/89482697/190486415-0fff4231-6cf5-41dd-8e0f-d92f92d04e1b.png)
 <p align = "center"> Figura 3: Diagrama de Casos de Uso - Administrador</p>
 
 
