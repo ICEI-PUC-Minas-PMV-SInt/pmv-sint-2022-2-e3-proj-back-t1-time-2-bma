@@ -1,7 +1,7 @@
 
 # Metodologia
 
-A metodologia de trabalho adotada para desenvolvimento do projeto iniciou-se com o processo de pesquisa, que se deu por meio de entrevistas com a parte interessada. Após identificação e análise dos problemas, seguimos com o processo de estruturação das soluções para sanar as necessidades apresentadas. 
+A metodologia de trabalho adotada para desenvolvimento do projeto, iniciou-se com o processo de pesquisa feita por meio de entrevistas com a parte interessada. Após identificação e análise dos problemas, seguimos com o processo de estruturação das soluções para sanar as necessidades apresentadas. 
 
 No processo de organização da equipe e otimização do ambiente de trabalho, optou-se pela utilização da metodologia SCRUM, por ela permitir a realização do trabalho de forma simples e dinâmica. Nesse método, o trabalho é realizado através de pequenos ciclos de atividades (Sprints) que tem o intuito de resolver problemas complexos e adaptativos.
 
@@ -65,7 +65,9 @@ etiquetas:
 
 Todo desenvolvimento de recursos deve ocorrer em uma ramificação dedicada a cada desenvolvedor, sem interferir no código principal. A main da aplicação estará disponível para o time e cada participante manterá as versões em suas branches. As atualizações serão enviadas através de commits para o repositório central, que após finalizar e fazer a solicitação pull, será mesclado no projeto por meio das merges. As tags serão utilizadas para destacar estágios do desenvolvimento de algum recurso.
 
-![Metodologia](img/fluxo.svg)
+![Metodologia](img/fluxo_ramificacao.svg)
+Fluxo de trabalho por ramificação de recursos
+
 Fonte:https://www.atlassian.com/br/git/tutorials/comparing-workflows/feature-branch-workflow
 
 
@@ -87,7 +89,8 @@ No projeto do Banco Municipal de Alimentos (BMA), serão planejadas Sprints para
 - cadastros dos beneficiários;
 - cadastro dos funcionários;
 - cadastro da retirada de cestas;
-- cadastros das entidades parceiras. 
+- autenticação de funcionário;
+- autenticação de beneficiário; 
 
 Para esse projeto ocorrerão reuniões semanais entre a equipe de desenvolvedores do projeto.
 
