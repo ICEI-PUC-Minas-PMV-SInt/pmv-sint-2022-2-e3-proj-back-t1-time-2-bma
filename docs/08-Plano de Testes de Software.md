@@ -144,6 +144,99 @@ Os testes funcionais a serem realizados no site estão descritos a seguir.
    </th>
  </tr>  
  </table>
+ 
+ <table> 
+  <tr>
+   <th>Caso de Teste</th>
+   <th> CT-04</th>
+  </tr>
+ <tr>
+   <th>Requisitos associados</th>
+   <th> RF-007 Permitir que o usuário registre as retiradas de cestas pelo beneficiário.<br>
+        RF-008 Restringir a retirada de cesta, conforme periodicidade estabelecida pelo município.<br>
+        RF-009 Permitir que o usuário visualize histórico de retirada dos beneficiários.
+   </th>
+ </tr> 
+ <tr> 
+  <th>Objetivo do teste</th>
+  <th>Verificar se ocorre o cadastro de retirada de cesta e que todos os campos obrigatórios são cadastrados corretamente.</th>
+ </tr>
+ <tr> 
+  <th>Passos</th>
+  <th> 
+  <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página de login.</li>
+    <li>Efetuar o login.</li>
+    <li>Acessar a página de cadastro de cestas.</li>
+    <li>Efetuar o cadastro de cesta.</li>
+    <li>Acessar os dados das cestas cadastradas.</li>
+    <li>Alterar os dados da cesta cadastrada.</li>
+    <li>Efetuar logoff.</li>	
+   </ol>
+   </th>
+ </tr>
+ <tr> 
+  <th> Critérios de Êxito</th>
+  <th> 
+   <ul> 
+     <li>Após o login a página de cadastro de cestas precisa ser carregada.</li>
+    <li>A página deve apresentar o formulário de cadastro de retirada de cestas.</li>
+    <li>Durante o cadastro, os dados do beneficiário devem ser acessados de acordo com o CPF informado.</li>
+    <li>A página deve informar se o beneficiário já retirou a cesta no intervalo de tempo estabelecido pelo município.</li>
+    <li>O cadastro da cesta deve ser realizado.</li>
+    <li>A área de cestas cadastradas deve permitir a alteração dos dados da entrega de cesta.</li>
+    <li>A página carregada deve ter acesso ao botão de logoff.</li>
+    <li>Após o logoff, a página de login deve ser novamente carregada.</li>
+   </ul> 
+   </th>
+ </tr>  
+ </table>
+ 
+ <table> 
+  <tr>
+   <th>Caso de Teste</th>
+   <th> CT-05</th>
+  </tr>
+ <tr>
+   <th>Requisitos associados</th>
+   <th> RF-011	 Consultar data de recebimento de cesta.<br>
+        RF-012 Consultar local de retirada de cesta.<br>
+        RF-013 Consultar recebimento de cesta<br>
+
+   </th>
+ </tr> 
+ <tr> 
+  <th>Objetivo do teste</th>
+  <th>Verificar se ocorre o acesso à página de consulta para retirada de cestas.</th>
+ </tr>
+ <tr> 
+  <th>Passos</th>
+  <th> 
+  <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página de login do beneficiário.</li>
+    <li>Efetuar o login.</li>
+    <li>Acessar a página de área do beneficiário.</li>
+    <li>Efetuar a consulta das datas e local de retirada de cestas.</li>
+    <li>Efetuar logoff.</li>	
+   </ol>
+   </th>
+ </tr>
+ <tr> 
+  <th> Critérios de Êxito</th>
+  <th> 
+   <ul> 
+     <li>Após o login a página da área do beneficiário precisa ser carregada.</li>
+     <li>A página precisa apresentar os dados para a retirada de cesta pelo beneficiário cadastrado.</li>
+     <li>A página carregada deve ter acesso ao botão de logoff.</li>
+     <li>Após o logoff, a página de login deve ser novamente carregada.</li>
+   </ul> 
+   </th>
+ </tr>  
+ </table>
 ## Ferramentas de Testes (Opcional)
 
 Comente sobre as ferramentas de testes utilizadas.
