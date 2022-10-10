@@ -10,8 +10,7 @@ Os testes funcionais serão realizados com a utilização do XXXXXX para simular
 
 Os testes funcionais a serem realizados no site estão descritos a seguir.
 
-<table>
- 
+<table> 
   <tr>
    <th>Caso de Teste</th>
    <th> CT-01</th>
@@ -50,11 +49,101 @@ Os testes funcionais a serem realizados no site estão descritos a seguir.
     <li>Após o logoff, a página de login deve ser novamente carregada.</li>    
    </ul> 
    </th>
- </tr>
-  
+ </tr>  
  </table>
 
+ <table> 
+  <tr>
+   <th>Caso de Teste</th>
+   <th> CT-02</th>
+  </tr>
+ <tr>
+   <th>Requisitos associados</th>
+   <th> RF-003 Permitir que o administrador cadastre os usuários do sistema. <br>
+   RF-004 Permitir que o administrador consulte, altere e exclua o cadastro dos usuários do sistema.
+   </th>
+ </tr> 
+ <tr> 
+  <th> Objetivo do teste</th>
+   <th> Verificar se o cadastro de usuários ocorre corretamente e que todos os campos obrigatórios são cadastrados corretamente.</th>
+ </tr>
+ <tr> 
+  <th> Passos</th>
+  <th> 
+  <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página de login.</li>
+    <li>Efetuar o login.</li>
+    <li>Acessar a página de cadastro do funcionário.</li>
+    <li>Efetuar o cadastro de funcionários.</li>
+   <li>Acessar a página de de funcionários cadastrados.</li>
+   <li>Alterar os dados do funcionário cadastrado.</li>
+   <li>Efetuar o logoff.</li>
+   </ol>
+   </th>
+ </tr>
+ <tr> 
+  <th> Critérios de Êxito</th>
+  <th> 
+   <ul> 
+    <li>Após o login a página de cadastro de funcionários precisa ser carregada.</li>
+    <li>A página deve apresentar o formulário de cadastro.</li>
+    <li>O cadastro de funcionário deve ser realizado.</li>
+    <li>A página de funcionários cadastrados deve permitir a alteração dos dados do funcionário.</li>
+    <li>A página carregada deve ter acesso ao botão de logoff.</li>
+    <li>Após o logoff, a página de login deve ser novamente carregada.</li> 
+   </ul> 
+   </th>
+ </tr>  
+ </table>
  
+ <table> 
+  <tr>
+   <th>Caso de Teste</th>
+   <th> CT-03</th>
+  </tr>
+ <tr>
+   <th>Requisitos associados</th>
+   <th> RF-005 Permitir que o usuário cadastre os beneficiários.<br>
+        RF-006 Permitir que o usuário consulte, altere e exclua o cadastro dos beneficiários.<br>
+        RF-010 Permitir que o usuário realize a redefinição de senha.<br>
+   </th>
+ </tr> 
+ <tr> 
+  <th>Objetivo do teste</th>
+  <th> Verificar se ocorre o cadastro de beneficiários e que todos os campos obrigatórios são cadastrados corretamente.</th>
+ </tr>
+ <tr> 
+  <th>Passos</th>
+  <th> 
+  <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página de login.</li>
+    <li>Efetuar o login.</li>
+    <li>Acessar a página de cadastro de beneficiário.</li>
+    <li>Efetuar o cadastro de beneficiário.</li>
+    <li>Acessar a página de beneficiários cadastrados.</li>
+    <li>Alterar os dados do beneficiário cadastrado.</li>
+    <li>Efetuar o logoff.</li>
+   </ol>
+   </th>
+ </tr>
+ <tr> 
+  <th> Critérios de Êxito</th>
+  <th> 
+   <ul> 
+    <li>Após o login a página de cadastro de beneficiários precisa ser carregada.</li>
+    <li>A página deve apresentar o formulário de cadastro.</li>
+    <li>O cadastro do beneficiário deve ser realizado.</li>
+    <li>A página de funcionários cadastrados deve permitir a alteração dos dados do beneficiário.</li>
+    <li>A página carregada deve ter acesso ao botão de logoff.</li>
+    <li>Após o logoff, a página de login deve ser novamente carregada.</li>    
+   </ul> 
+   </th>
+ </tr>  
+ </table>
 ## Ferramentas de Testes (Opcional)
 
 Comente sobre as ferramentas de testes utilizadas.
