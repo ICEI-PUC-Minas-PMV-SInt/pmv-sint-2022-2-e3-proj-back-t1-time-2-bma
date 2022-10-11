@@ -7,7 +7,7 @@ O plano de testes de usabilidade a serem realizados com os usuários são descri
 |-------|---------|
 |Usuários Selecionados|---------|
 |Roteiro a ser avaliado|<ul><li>Navegação geral.</li> <li>Habilidade para efetuar operações simples como cadastro, comentários, apagar cadastro, editar informações e consultar informações.</li></ul>|
-|Desafios|<ul><li>Fazer um cadastro.</li><li>Apagar um cadastro.</li><li>Apagar comentários.</li><li>Alterar perfil.</li><li>Verificar informações.</li><li>Alterar senha.</li></ul>|
+|Desafios|<ul><li>Inserir identificação de usuário</li><li>Inserir senha</li><li> Realizar autenticação</li><li>Limpar dados inseridos.</li><li>Fazer um cadastro.</li><li>Apagar um cadastro.</li><li>Apagar comentários.</li><li>Alterar perfil.</li><li>Verificar informações.</li><li>Alterar senha.</li></ul>|
 
 
 
