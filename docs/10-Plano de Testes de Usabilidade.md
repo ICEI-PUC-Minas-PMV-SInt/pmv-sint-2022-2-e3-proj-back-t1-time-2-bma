@@ -1,8 +1,7 @@
 # Plano de Testes de Usabilidade
 
-O teste de usabilidade permite avaliar a qualidade da interface com o usuário da aplicação interativa. O Plano de Testes de Software é gerado a partir da especificação do sistema e consiste em casos de testes que deverão ser executados quando a implementação estiver parcial ou totalmente pronta.
-
 O plano de testes de usabilidade a serem realizados com os usuários são descritos na tabela a seguir.
+
 |Público Alvo|<ul><li>Pessoas acima de 18 anos, que desejam obter informações e colaborar com seu respectivo bairro.</li><li>Pessoas que trabalham em entidades de assistência social.</li><li> Moradores a procura de serviços e/ou que foram beneficiários, em algum momento, de programas de assistência oferecidos pelo governo.</li></ul>|
 |:---:|:---|
 |Usuários Selecionados|---------|
