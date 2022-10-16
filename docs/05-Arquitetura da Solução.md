@@ -140,10 +140,9 @@ A seguir são apresentadas os atributos identificados para cada entidade:
 
 As ferramentas que serão utilizadas no desenvolvimento de software são: 
  - Desenho de protótipo: Figma
- - Desenvolvimento front-end: Visual Studio Code;  
+ - Desenvolvimento front-end e back-end: Visual Studio Code, html, css, java script;  
  - Modelagem de Dados: MySQL e BR Modelo Web; 
  - Testes e conexões com o banco de dados utilizaremos o Dbeaver;
- - Desenvolvimento Back-End utilizaremos o IntelliJ;
  - Hoespedagem: Heroku;
  - Comunicação equipe: Whatsapp, Microsoft Teams;
  - Versionamento de Código: Git e Github;
@@ -183,23 +182,8 @@ O Esquema Relacional corresponde à representação dos dados em tabelas juntame
 
 Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do banco de dados. Este arquivo deverá ser incluído dentro da pasta src\bd.
 
+
 ## Instruções SQL de Manipulação do BD (DML)
 
 Entregar um arquivo dml.sql contendo os scripts de manipulação de banco de dados. Este arquivo deverá ser incluído dentro da pasta src\bd.
 
-## Tecnologias Utilizadas
-
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
-
-## Hospedagem
-
-Explique como a hospedagem e o lançamento da plataforma foi feita.
-
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
