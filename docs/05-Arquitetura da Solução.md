@@ -157,22 +157,20 @@ O diagrama de classes do projeto pode ser visualizado na imagem a seguir.
 
 ## Modelo ER
 
-O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.]
+O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
 
-![Diagrama Relacional](img/Modelo_BMA4.png)
+![Diagrama Relacional](img/Modelo1.png)
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER”.
 
-> - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
 
 ## Esquema Relacional
 
 O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
 
-![Esquema_relacional](img/Modelo_BMA5.png)
+![Esquema_relacional](img/Modelo2.png)
  
-![Esquema_mysql](img/MODELO_ERR.png)
+![Esquema_mysql](img/Modelo3.png)
 
 ## Modelo Físico (DDL)
 
