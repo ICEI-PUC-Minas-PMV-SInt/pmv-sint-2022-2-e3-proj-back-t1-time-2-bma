@@ -7,7 +7,7 @@ Para o desenvolvimento em HTML5, CSS3 e Javascript, está sendo utilizado o edit
 Para a comunicação entre os participantes do grupo, o Microsoft Teams tem sido usado como canal de comunicação oficial e o Whatsapp como canal de comunicação informal, nos quais ocorre o compartilhamento de materiais e agendamentos de dailys. 
 
 
-Para a prototipação de interfaces, utilizamos o Figma. O diagrama e a arquitetura foram elaborados com o Miro. 
+Para a prototipação de interfaces, utilizamos o Figma. A arquitetura foi elaborada com o Miro. 
 
 Como sistema de gerenciamento de banco de dados, está sendo utilizado o MySQL.
 
@@ -142,7 +142,6 @@ As ferramentas que serão utilizadas no desenvolvimento de software são:
  - Desenho de protótipo: Figma
  - Desenvolvimento front-end e back-end: Visual Studio Code, html, css, java script;  
  - Modelagem de Dados: MySQL e BR Modelo Web; 
- - Testes e conexões com o banco de dados utilizaremos o Dbeaver;
  - Hoespedagem: Heroku;
  - Comunicação equipe: Whatsapp, Microsoft Teams;
  - Versionamento de Código: Git e Github;
@@ -151,7 +150,7 @@ As ferramentas que serão utilizadas no desenvolvimento de software são:
 
 ## Hospedagem
 
-A hospedagem do projeto será realizada na plataforma Heroku. Plataforma em que é possível realizar além da hospedagem, podemos realizar os testes, configurações e publicações virtuais na núvem, em resumo, será o facilitador para que o deploy e implementação de toda a aplicação possa ser realizada de forma mais otimizada e segura. 
+A hospedagem do projeto será realizada na plataforma Heroku. Nessa plataforma é possível realizar, além da hospedagem, os testes, configurações e publicações virtuais na núvem. Essa ferramenta auxiliará na implementação da aplicação de forma mais otimizada e segura. 
 
 
 ## Diagrama de Classes
