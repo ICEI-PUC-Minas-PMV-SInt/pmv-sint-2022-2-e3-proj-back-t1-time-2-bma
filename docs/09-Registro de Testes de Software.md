@@ -11,11 +11,11 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 > |-------------|-----|----|
 > |Caso de Teste|CT-01||
 > |Critérios de êxito|Avaliação|Observações|
-> |A página de login foi carregada|OK||
-> |Ocorreu a autenticação do usuário.|OK||
-> |A página autorizada foi acessada.|OK||
-> |A página carregada teve acesso ao botão de logoff.|OK||
-> |Após logoff, a página para o login foi novamente carregada.|OK||
+> |A página de login foi carregada|Sim||
+> |Ocorreu a autenticação do usuário.|Sim||
+> |A página autorizada foi acessada.|Sim||
+> |A página carregada teve acesso ao botão de logoff.|Sim||
+> |Após logoff, a página para o login foi novamente carregada.|Sim||
 
 **Links Úteis**:
 > - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
