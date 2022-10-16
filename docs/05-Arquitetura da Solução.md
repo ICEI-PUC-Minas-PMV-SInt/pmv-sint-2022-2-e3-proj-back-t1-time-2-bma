@@ -138,10 +138,17 @@ A seguir são apresentadas os atributos identificados para cada entidade:
 
 ## Tecnologias Utilizadas
 
-As ferramentas que serão utilizadas no desenvolvimento de software serão Visual Studio Code para o desenvolvimento front-end, para testes e conexões com o banco de dados utilizaremos o Dbeaver, para desenvolvimento Back-End utilizaremos o IntelliJ, por fim, para hospedagem utilizaremos a plataforma Heroku.
-Para comunicação, a equipe desfruta das ferramentas Whatsapp, Google Meet, Teams e Discord.
-Para versionamento de código, a equipe utiliza a plataforma do Github.
-Para aplicar os fundamentos do scrum, mais precisamente com o quadro Kanban, a equipe está utilizando a ferramenta Planner da Microsoft.
+As ferramentas que serão utilizadas no desenvolvimento de software são: 
+ - Desenho de protótipo: Figma
+ - Desenvolvimento front-end: Visual Studio Code;  
+ - Modelagem de Dados: MySQL e BR Modelo Web; 
+ - Testes e conexões com o banco de dados utilizaremos o Dbeaver;
+ - Desenvolvimento Back-End utilizaremos o IntelliJ;
+ - Hoespedagem: Heroku;
+ - Comunicação equipe: Whatsapp, Microsoft Teams;
+ - Versionamento de Código: Git e Github;
+ - Planejamento: Medologia Scrum, Quadro Kanban. 
+
 
 ## Hospedagem
 
