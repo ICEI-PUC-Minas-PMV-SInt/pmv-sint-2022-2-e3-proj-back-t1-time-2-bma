@@ -1,0 +1,44 @@
+﻿@model app_banco_alimentos.Models.Usuario
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h1 class="mx-auto text-center" style="color:#21715B; width: 400px" ;>Login do Usuário</h1>
+
+<hr />
+
+<div class="row">
+    <div class="mx-auto" style="width: 400px;">
+        <form asp-action="Login">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="d-grid gap-1 col-6 mx-auto w-auto p-1">
+                <label asp-for="Matricula" class="control-label"></label>
+                <input asp-for="Matricula" class="form-control" />
+                <span asp-validation-for="Matricula" class="text-danger"></span>
+            </div>
+            <div class="d-grid gap-1 col-6 mx-auto w-auto p-1">
+                <label asp-for="Senha" class="control-label"></label>
+                <input asp-for="Senha" class="form-control" />
+                <span asp-validation-for="Senha" class="text-danger"></span>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+                <input type="submit" value="Entrar" class="btn btn-outline-success" />
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto my-3">
+                <a class="btn btn-outline-secondary btn-sm" asp-controller="Home" asp-action="Index">Voltar</a>
+            </div>
+        </form>
+
+        <h2> @ViewBag.Message</h2>
+
+    </div>
+</div>
+
+
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

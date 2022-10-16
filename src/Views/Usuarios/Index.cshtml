@@ -1,0 +1,45 @@
+﻿@model IEnumerable<app_banco_alimentos.Models.Usuario>
+
+@{
+    ViewData["Title"] = "Usuário";
+}
+
+<p>
+    <a style="font-weight:500"; asp-action="Create">Criar Novo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Matricula)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Perfil)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Matricula)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Perfil)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Cpf">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.Cpf">Detalhes</a> |
+                <a asp-action="Delete" asp-route-id="@item.Cpf">Excluir</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
