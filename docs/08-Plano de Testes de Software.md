@@ -2,7 +2,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
 
-Os testes funcionais serão realizados com a utilização do live server para simular o acesso ao site. Para a segunda etapa, será testada a página de login de acesso do usuário, descrito no Caso de Teste CT-01. Nesse cenário, a página será testada por um dos membros da equipe, de preferência aquele que não participou diretamente na construção dessa página. As outras páginas, a serem desenvolvidas na próxima etapa, serão testadas, preferencialmente, pelo administrador de BMA. 
+Os testes funcionais serão realizados com a utilização do ASP.Net para simular o acesso ao site. Para a segunda etapa, será testada a página de login de acesso do usuário, descrito no Caso de Teste CT-01. Nesse cenário, a página será testada por um dos membros da equipe, de preferência aquele que não participou diretamente na construção dessa página. As outras páginas, a serem desenvolvidas na próxima etapa, serão testadas, preferencialmente, pelo administrador de BMA. 
 
 Os testes funcionais a serem realizados no site estão descritos a seguir.
 
