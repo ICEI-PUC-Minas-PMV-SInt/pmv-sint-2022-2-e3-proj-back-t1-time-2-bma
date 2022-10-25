@@ -3,8 +3,10 @@
     "",
     "\\src",
     "\\src\\Cadastro de Beneficiario",
-    "\\src\\Cadastro de Beneficiario\\Migrations"
+    "\\src\\Cadastro de Beneficiario\\cadastro_beneficiario",
+    "\\src\\Cadastro de Beneficiario\\cadastro_beneficiario\\cadastro_beneficiario",
+    "\\src\\Cadastro de Beneficiario\\cadastro_beneficiario\\cadastro_beneficiario\\Models"
   ],
-  "SelectedNode": "\\src\\Cadastro de Beneficiario\\Migrations\\20221025154900_M00.cs",
+  "SelectedNode": "\\src\\Cadastro de Beneficiario\\cadastro_beneficiario\\cadastro_beneficiario.sln",
   "PreviewInSolutionExplorer": false
 }
