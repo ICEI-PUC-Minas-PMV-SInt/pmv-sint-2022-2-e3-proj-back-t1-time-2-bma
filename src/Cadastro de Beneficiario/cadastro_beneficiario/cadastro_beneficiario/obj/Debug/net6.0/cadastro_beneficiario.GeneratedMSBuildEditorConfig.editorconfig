@@ -15,6 +15,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\workspace\projetoPUCMinas\BMA 2 SEMESTRE\src\Cadastro de Beneficiario\cadastro_beneficiario\cadastro_beneficiario
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/workspace/projetoPUCMinas/BMA 2 SEMESTRE/src/Cadastro de Beneficiario/cadastro_beneficiario/cadastro_beneficiario/Views/Beneficiarios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVuZWZpY2lhcmlvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/workspace/projetoPUCMinas/BMA 2 SEMESTRE/src/Cadastro de Beneficiario/cadastro_beneficiario/cadastro_beneficiario/Views/Beneficiarios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVuZWZpY2lhcmlvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/workspace/projetoPUCMinas/BMA 2 SEMESTRE/src/Cadastro de Beneficiario/cadastro_beneficiario/cadastro_beneficiario/Views/Beneficiarios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVuZWZpY2lhcmlvc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/workspace/projetoPUCMinas/BMA 2 SEMESTRE/src/Cadastro de Beneficiario/cadastro_beneficiario/cadastro_beneficiario/Views/Beneficiarios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVuZWZpY2lhcmlvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/workspace/projetoPUCMinas/BMA 2 SEMESTRE/src/Cadastro de Beneficiario/cadastro_beneficiario/cadastro_beneficiario/Views/Beneficiarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVuZWZpY2lhcmlvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/workspace/projetoPUCMinas/BMA 2 SEMESTRE/src/Cadastro de Beneficiario/cadastro_beneficiario/cadastro_beneficiario/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
