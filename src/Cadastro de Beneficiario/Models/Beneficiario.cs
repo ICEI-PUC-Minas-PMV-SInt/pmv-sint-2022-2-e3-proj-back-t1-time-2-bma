@@ -17,7 +17,7 @@ public class Beneficiario
     public string Situacao { get; set; }
 
     [Required(ErrorMessage = "Campo obrigatório!")]
-    public DateOnly Data_Nascimento { get; set; }
+    public DateTime Data_Nascimento { get; set; }
 
     [Required(ErrorMessage = "Campo obrigatório!")]
     public string CEP { get; set; }

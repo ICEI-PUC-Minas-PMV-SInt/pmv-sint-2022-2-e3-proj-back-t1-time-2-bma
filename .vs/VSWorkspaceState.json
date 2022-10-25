@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\Cadastro de Beneficiario",
+    "\\src\\Cadastro de Beneficiario\\Migrations"
   ],
-  "SelectedNode": "\\C:\\workspace\\projetoPUCMinas\\BMA 2 SEMESTRE",
+  "SelectedNode": "\\src\\Cadastro de Beneficiario\\Migrations\\20221025154900_M00.cs",
   "PreviewInSolutionExplorer": false
 }
