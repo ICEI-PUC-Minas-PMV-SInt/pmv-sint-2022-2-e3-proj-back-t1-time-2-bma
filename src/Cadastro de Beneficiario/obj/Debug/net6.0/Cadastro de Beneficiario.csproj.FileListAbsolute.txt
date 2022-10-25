@@ -1,0 +1,26 @@
+C:\workspace\projetoPUCMinas\BMA 2 SEMESTRE\src\Cadastro de Beneficiario\bin\Debug\net6.0\appsettings.Development.json
+C:\workspace\projetoPUCMinas\BMA 2 SEMESTRE\src\Cadastro de Beneficiario\bin\Debug\net6.0\appsettings.json
+C:\workspace\projetoPUCMinas\BMA 2 SEMESTRE\src\Cadastro de Beneficiario\bin\Debug\net6.0\Cadastro de Beneficiario.staticwebassets.runtime.json
+C:\workspace\projetoPUCMinas\BMA 2 SEMESTRE\src\Cadastro de Beneficiario\bin\Debug\net6.0\Cadastro de Beneficiario.exe
+C:\workspace\projetoPUCMinas\BMA 2 SEMESTRE\src\Cadastro de Beneficiario\bin\Debug\net6.0\Cadastro de Beneficiario.deps.json
+C:\workspace\projetoPUCMinas\BMA 2 SEMESTRE\src\Cadastro de Beneficiario\bin\Debug\net6.0\Cadastro de Beneficiario.runtimeconfig.json
+C:\workspace\projetoPUCMinas\BMA 2 SEMESTRE\src\Cadastro de Beneficiario\bin\Debug\net6.0\Cadastro de Beneficiario.dll
+C:\workspace\projetoPUCMinas\BMA 2 SEMESTRE\src\Cadastro de Beneficiario\bin\Debug\net6.0\Cadastro de Beneficiario.pdb
+C:\workspace\projetoPUCMinas\BMA 2 SEMESTRE\src\Cadastro de Beneficiario\obj\Debug\net6.0\Cadastro de Beneficiario.csproj.AssemblyReference.cache
+C:\workspace\projetoPUCMinas\BMA 2 SEMESTRE\src\Cadastro de Beneficiario\obj\Debug\net6.0\Cadastro de Beneficiario.GeneratedMSBuildEditorConfig.editorconfig
+C:\workspace\projetoPUCMinas\BMA 2 SEMESTRE\src\Cadastro de Beneficiario\obj\Debug\net6.0\Cadastro de Beneficiario.AssemblyInfoInputs.cache
+C:\workspace\projetoPUCMinas\BMA 2 SEMESTRE\src\Cadastro de Beneficiario\obj\Debug\net6.0\Cadastro de Beneficiario.AssemblyInfo.cs
+C:\workspace\projetoPUCMinas\BMA 2 SEMESTRE\src\Cadastro de Beneficiario\obj\Debug\net6.0\Cadastro de Beneficiario.csproj.CoreCompileInputs.cache
+C:\workspace\projetoPUCMinas\BMA 2 SEMESTRE\src\Cadastro de Beneficiario\obj\Debug\net6.0\Cadastro de Beneficiario.MvcApplicationPartsAssemblyInfo.cache
+C:\workspace\projetoPUCMinas\BMA 2 SEMESTRE\src\Cadastro de Beneficiario\obj\Debug\net6.0\Cadastro de Beneficiario.RazorAssemblyInfo.cache
+C:\workspace\projetoPUCMinas\BMA 2 SEMESTRE\src\Cadastro de Beneficiario\obj\Debug\net6.0\Cadastro de Beneficiario.RazorAssemblyInfo.cs
+C:\workspace\projetoPUCMinas\BMA 2 SEMESTRE\src\Cadastro de Beneficiario\obj\Debug\net6.0\staticwebassets.build.json
+C:\workspace\projetoPUCMinas\BMA 2 SEMESTRE\src\Cadastro de Beneficiario\obj\Debug\net6.0\staticwebassets.development.json
+C:\workspace\projetoPUCMinas\BMA 2 SEMESTRE\src\Cadastro de Beneficiario\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\workspace\projetoPUCMinas\BMA 2 SEMESTRE\src\Cadastro de Beneficiario\obj\Debug\net6.0\scopedcss\bundle\Cadastro de Beneficiario.styles.css
+C:\workspace\projetoPUCMinas\BMA 2 SEMESTRE\src\Cadastro de Beneficiario\obj\Debug\net6.0\scopedcss\projectbundle\Cadastro de Beneficiario.bundle.scp.css
+C:\workspace\projetoPUCMinas\BMA 2 SEMESTRE\src\Cadastro de Beneficiario\obj\Debug\net6.0\Cadastro de Beneficiario.dll
+C:\workspace\projetoPUCMinas\BMA 2 SEMESTRE\src\Cadastro de Beneficiario\obj\Debug\net6.0\refint\Cadastro de Beneficiario.dll
+C:\workspace\projetoPUCMinas\BMA 2 SEMESTRE\src\Cadastro de Beneficiario\obj\Debug\net6.0\Cadastro de Beneficiario.pdb
+C:\workspace\projetoPUCMinas\BMA 2 SEMESTRE\src\Cadastro de Beneficiario\obj\Debug\net6.0\Cadastro de Beneficiario.genruntimeconfig.cache
+C:\workspace\projetoPUCMinas\BMA 2 SEMESTRE\src\Cadastro de Beneficiario\obj\Debug\net6.0\ref\Cadastro de Beneficiario.dll
