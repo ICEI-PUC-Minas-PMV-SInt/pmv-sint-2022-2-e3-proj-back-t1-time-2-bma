@@ -1,40 +1,47 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-[Table("Cadastro de Beneficiário")]
-public class Beneficiario
+namespace cadastro_beneficiario.Models
 {
-	[Key]
-	public int Id_Beneficiario { get; set; }
-	[Required(ErrorMessage ="Campo obrigatório!")]
-	public string CPF { get; set; }
+    [Table("Beneficiario")]
+    public class Beneficiario
+    {
+        [Key]
+        public int Id { get; set; }
+        [Required(ErrorMessage ="Campo Obrigatório")]
+        [Display(Name="Nome")]
+        public string Name { get; set; }
 
-    [Required(ErrorMessage = "Campo obrigatório!")]
-    public string Nome_Beneficiario { get; set; }
+        [Required(ErrorMessage = "Campo Obrigatório")]
+        public string CPF { get; set; }
 
-    [Required(ErrorMessage = "Campo obrigatório!")]
-    public string Situacao { get; set; }
+        [Required(ErrorMessage = "Campo Obrigatório")]
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString ="{0:dd-MM-yyyy}")]
+        [Display(Name="Data de Nascimento")]
+        public DateTime Data_Nascimento { get; set; }
 
-    [Required(ErrorMessage = "Campo obrigatório!")]
-    public DateTime Data_Nascimento { get; set; }
 
-    [Required(ErrorMessage = "Campo obrigatório!")]
-    public string CEP { get; set; }
+        [Required(ErrorMessage = "Campo Obrigatório")]
+        public string Logradouro { get; set; }
 
-    [Required(ErrorMessage = "Campo obrigatório!")]
-    public string Logradouro { get; set; }
+        [Required(ErrorMessage = "Campo Obrigatório")]
+        [Display(Name = "Nº")]
+        public string Numero { get; set; }        
+        public string complemento { get; set; }
 
-    [Required(ErrorMessage = "Campo obrigatório!")]
-    public string Numero { get; set; }
+        [Required(ErrorMessage = "Campo Obrigatório")]
+        public string Bairro { get; set; }
 
-	public string Complemento { get; set; }
+        [Required(ErrorMessage = "Campo Obrigatório")]
+        public string Cidade { get; set; }
 
-    [Required(ErrorMessage = "Campo obrigatório!")]
-    public string Cidade { get; set; }
+        [Required(ErrorMessage = "Campo Obrigatório")]
+        public string UF { get; set; }
 
-    [Required(ErrorMessage = "Campo obrigatório!")]
-    public string UF { get; set; }
+        [Required(ErrorMessage = "Campo Obrigatório")]
+        public string CEP { get; set; }
 
-    
+
+    }
 }

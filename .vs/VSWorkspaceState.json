@@ -2,11 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\Cadastro de Beneficiario",
-    "\\src\\Cadastro de Beneficiario\\cadastro_beneficiario",
-    "\\src\\Cadastro de Beneficiario\\cadastro_beneficiario\\cadastro_beneficiario",
-    "\\src\\Cadastro de Beneficiario\\cadastro_beneficiario\\cadastro_beneficiario\\Models"
+    "\\src\\Cadastro de Beneficiario"
   ],
-  "SelectedNode": "\\src\\Cadastro de Beneficiario\\cadastro_beneficiario\\cadastro_beneficiario.sln",
+  "SelectedNode": "\\src\\Cadastro de Beneficiario",
   "PreviewInSolutionExplorer": false
 }
