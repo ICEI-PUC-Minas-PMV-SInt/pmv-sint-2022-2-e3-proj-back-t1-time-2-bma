@@ -8,5 +8,6 @@ namespace cadastro_beneficiario.Models
         {
         }
         public DbSet<Beneficiario> Beneficiarios { get; set; }
+        public DbSet<Dependente> Dependentes { get; set; }
     }
 }

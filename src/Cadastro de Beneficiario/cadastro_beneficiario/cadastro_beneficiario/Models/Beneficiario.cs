@@ -42,6 +42,8 @@ namespace cadastro_beneficiario.Models
         [Required(ErrorMessage = "Campo Obrigatório")]
         public string CEP { get; set; }
 
+        public ICollection<Dependente> Dependentes { get; set; }
+
 
     }
 }
