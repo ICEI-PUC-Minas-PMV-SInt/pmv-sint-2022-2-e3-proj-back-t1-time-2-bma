@@ -9,102 +9,91 @@ using cadastro_beneficiario.Models;
 
 namespace cadastro_beneficiario.Controllers
 {
-    public class BeneficiariosController : Controller
+    public class UsuariosController : Controller
     {
         private readonly ApplicationDbContext _context;
 
-        public BeneficiariosController(ApplicationDbContext context)
+        public UsuariosController(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        // GET: Beneficiarios
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        // GET: Usuarios
         public async Task<IActionResult> Index()
         {
-              return View(await _context.Beneficiarios.ToListAsync());
+              return View(await _context.Usuarios.ToListAsync());
         }
 
-        // GET: Beneficiarios/Details/5
+        // GET: Usuarios/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null || _context.Beneficiarios == null)
+            if (id == null || _context.Usuarios == null)
             {
                 return NotFound();
             }
 
-            var beneficiario = await _context.Beneficiarios
+            var usuario = await _context.Usuarios
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (beneficiario == null)
+            if (usuario == null)
             {
                 return NotFound();
             }
 
-            return View(beneficiario);
+            return View(usuario);
         }
-        public async Task<IActionResult>Dependentes(int? id)
-        {
-            if (id == null || _context.Beneficiarios == null)
-            {
-                return NotFound();
-            }
 
-            var beneficiario = await _context.Beneficiarios
-                .Include(t=> t.Dependentes)
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (beneficiario == null)
-            {
-                return NotFound();
-            }
-
-            return View(beneficiario);
-        }
-        
-        // GET: Beneficiarios/Create
+        // GET: Usuarios/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Beneficiarios/Create
+        // POST: Usuarios/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,CPF,Data_Nascimento,Logradouro,Numero,complemento,Bairro,Cidade,UF,CEP")] Beneficiario beneficiario)
+        public async Task<IActionResult> Create([Bind("Id,Name,Password,Perfil")] Usuario usuario)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(beneficiario);
+                usuario.Password = BCrypt.Net.BCrypt.HashPassword(usuario.Password);
+                _context.Add(usuario);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(beneficiario);
+            return View(usuario);
         }
 
-        // GET: Beneficiarios/Edit/5
+        // GET: Usuarios/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null || _context.Beneficiarios == null)
+            if (id == null || _context.Usuarios == null)
             {
                 return NotFound();
             }
 
-            var beneficiario = await _context.Beneficiarios.FindAsync(id);
-            if (beneficiario == null)
+            var usuario = await _context.Usuarios.FindAsync(id);
+            if (usuario == null)
             {
                 return NotFound();
             }
-            return View(beneficiario);
+            return View(usuario);
         }
 
-        // POST: Beneficiarios/Edit/5
+        // POST: Usuarios/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,CPF,Data_Nascimento,Logradouro,Numero,complemento,Bairro,Cidade,UF,CEP")] Beneficiario beneficiario)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Password,Perfil")] Usuario usuario)
         {
-            if (id != beneficiario.Id)
+            if (id != usuario.Id)
             {
                 return NotFound();
             }
@@ -113,12 +102,13 @@ namespace cadastro_beneficiario.Controllers
             {
                 try
                 {
-                    _context.Update(beneficiario);
+                    usuario.Password = BCrypt.Net.BCrypt.HashPassword(usuario.Password);
+                    _context.Update(usuario);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!BeneficiarioExists(beneficiario.Id))
+                    if (!UsuarioExists(usuario.Id))
                     {
                         return NotFound();
                     }
@@ -129,49 +119,49 @@ namespace cadastro_beneficiario.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(beneficiario);
+            return View(usuario);
         }
 
-        // GET: Beneficiarios/Delete/5
+        // GET: Usuarios/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null || _context.Beneficiarios == null)
+            if (id == null || _context.Usuarios == null)
             {
                 return NotFound();
             }
 
-            var beneficiario = await _context.Beneficiarios
+            var usuario = await _context.Usuarios
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (beneficiario == null)
+            if (usuario == null)
             {
                 return NotFound();
             }
 
-            return View(beneficiario);
+            return View(usuario);
         }
 
-        // POST: Beneficiarios/Delete/5
+        // POST: Usuarios/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (_context.Beneficiarios == null)
+            if (_context.Usuarios == null)
             {
-                return Problem("Entity set 'ApplicationDbContext.Beneficiarios'  is null.");
+                return Problem("Entity set 'ApplicationDbContext.Usuarios'  is null.");
             }
-            var beneficiario = await _context.Beneficiarios.FindAsync(id);
-            if (beneficiario != null)
+            var usuario = await _context.Usuarios.FindAsync(id);
+            if (usuario != null)
             {
-                _context.Beneficiarios.Remove(beneficiario);
+                _context.Usuarios.Remove(usuario);
             }
             
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool BeneficiarioExists(int id)
+        private bool UsuarioExists(int id)
         {
-          return _context.Beneficiarios.Any(e => e.Id == id);
+          return _context.Usuarios.Any(e => e.Id == id);
         }
     }
 }

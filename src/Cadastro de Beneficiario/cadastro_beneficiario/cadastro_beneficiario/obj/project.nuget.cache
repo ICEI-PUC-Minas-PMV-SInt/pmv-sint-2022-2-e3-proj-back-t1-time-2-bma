@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "hZM7sHaVREi4XI4Tc7GDS3dWZYZ1+CDXXmO4uXDqoIATbwW2pR6lPiSjXxYGj+27EWVGfrR2SrZ3G8roLRqVsQ==",
+  "dgSpecHash": "ZgtLdzEsFe0YqG0Xq7yyKlTwZxG1g9DlhOl8UImXC7twf8FEz15uZDunfWq5WCH9BmYhiZGs6eca1sLVbRXrEA==",
   "success": true,
   "projectFilePath": "C:\\workspace\\projetoPUCMinas\\BMA 2 SEMESTRE\\src\\Cadastro de Beneficiario\\cadastro_beneficiario\\cadastro_beneficiario\\cadastro_beneficiario.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\dridr\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\dridr\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\dridr\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\dridr\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
