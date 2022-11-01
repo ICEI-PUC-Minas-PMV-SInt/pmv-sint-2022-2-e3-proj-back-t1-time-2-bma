@@ -28,7 +28,7 @@ namespace cadastro_beneficiario.Models
         [Required(ErrorMessage = "Campo Obrigatório")]
         [Display(Name = "Nº")]
         public string Numero { get; set; }        
-        public string complemento { get; set; }
+        public string? Complemento { get; set; }
 
         [Required(ErrorMessage = "Campo Obrigatório")]
         public string Bairro { get; set; }

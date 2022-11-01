@@ -263,3 +263,4 @@ C:\workspace\projetoPUCMinas\BMA 2 SEMESTRE\src\Cadastro de Beneficiario\cadastr
 C:\workspace\projetoPUCMinas\BMA 2 SEMESTRE\src\Cadastro de Beneficiario\cadastro_beneficiario\cadastro_beneficiario\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\workspace\projetoPUCMinas\BMA 2 SEMESTRE\src\Cadastro de Beneficiario\cadastro_beneficiario\cadastro_beneficiario\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\workspace\projetoPUCMinas\BMA 2 SEMESTRE\src\Cadastro de Beneficiario\cadastro_beneficiario\cadastro_beneficiario\bin\Debug\net6.0\BCrypt.Net-Next.dll
+C:\workspace\projetoPUCMinas\BMA 2 SEMESTRE\src\Cadastro de Beneficiario\cadastro_beneficiario\cadastro_beneficiario\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll

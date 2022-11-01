@@ -74,15 +74,15 @@ namespace cadastro_beneficiario.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,CPF,Data_Nascimento,Logradouro,Numero,complemento,Bairro,Cidade,UF,CEP")] Beneficiario beneficiario)
+        public async Task<IActionResult> Create([Bind("Id,Name,CPF,Data_Nascimento,Logradouro,Numero,Complemento,Bairro,Cidade,UF,CEP")] Beneficiario beneficiario)
         {
-            if (ModelState.IsValid)
-            {
+          // if (ModelState.IsValid){
+            
                 _context.Add(beneficiario);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
-            }
-            return View(beneficiario);
+            //}
+           // return View(beneficiario);
         }
 
         // GET: Beneficiarios/Edit/5
@@ -106,7 +106,7 @@ namespace cadastro_beneficiario.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,CPF,Data_Nascimento,Logradouro,Numero,complemento,Bairro,Cidade,UF,CEP")] Beneficiario beneficiario)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,CPF,Data_Nascimento,Logradouro,Numero,Complemento,Bairro,Cidade,UF,CEP")] Beneficiario beneficiario)
         {
             if (id != beneficiario.Id)
             {

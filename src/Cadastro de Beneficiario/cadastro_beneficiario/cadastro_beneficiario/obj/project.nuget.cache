@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZgtLdzEsFe0YqG0Xq7yyKlTwZxG1g9DlhOl8UImXC7twf8FEz15uZDunfWq5WCH9BmYhiZGs6eca1sLVbRXrEA==",
+  "dgSpecHash": "IxV4D64TSyfzSVaGVc30KVyD4mcVyu13AawnlaHALVZpAU6eyFH2BdIKrjBAxTiFAp860FBjbHQI2l87q7sB8g==",
   "success": true,
   "projectFilePath": "C:\\workspace\\projetoPUCMinas\\BMA 2 SEMESTRE\\src\\Cadastro de Beneficiario\\cadastro_beneficiario\\cadastro_beneficiario\\cadastro_beneficiario.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\dridr\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\dridr\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
     "C:\\Users\\dridr\\.nuget\\packages\\messagepackanalyzer\\2.1.152\\messagepackanalyzer.2.1.152.nupkg.sha512",
+    "C:\\Users\\dridr\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\6.0.10\\microsoft.aspnetcore.diagnostics.entityframeworkcore.6.0.10.nupkg.sha512",
     "C:\\Users\\dridr\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.0\\microsoft.aspnetcore.razor.language.6.0.0.nupkg.sha512",
     "C:\\Users\\dridr\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
     "C:\\Users\\dridr\\.nuget\\packages\\microsoft.build\\17.0.0\\microsoft.build.17.0.0.nupkg.sha512",

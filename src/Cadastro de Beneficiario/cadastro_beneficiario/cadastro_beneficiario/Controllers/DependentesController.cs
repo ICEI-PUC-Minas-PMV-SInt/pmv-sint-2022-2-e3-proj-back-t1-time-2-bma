@@ -49,7 +49,7 @@ namespace cadastro_beneficiario.Controllers
         // GET: Dependentes/Create
         public IActionResult Create()
         {
-            ViewData["BeneficiarioId"] = new SelectList(_context.Beneficiarios, "Id", "Bairro");
+            ViewData["BeneficiarioId"] = new SelectList(_context.Beneficiarios, "Id", "Name");
             return View();
         }
 
@@ -60,13 +60,13 @@ namespace cadastro_beneficiario.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Name,Data_Nascimento,BeneficiarioId")] Dependente dependente)
         {
-            if (ModelState.IsValid)
-            {
+           // if (ModelState.IsValid)
+            //{
                 _context.Add(dependente);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
-            }
-            ViewData["BeneficiarioId"] = new SelectList(_context.Beneficiarios, "Id", "Bairro", dependente.BeneficiarioId);
+           // }
+            ViewData["BeneficiarioId"] = new SelectList(_context.Beneficiarios, "Id", "Name", dependente.BeneficiarioId);
             return View(dependente);
         }
 
@@ -83,7 +83,7 @@ namespace cadastro_beneficiario.Controllers
             {
                 return NotFound();
             }
-            ViewData["BeneficiarioId"] = new SelectList(_context.Beneficiarios, "Id", "Bairro", dependente.BeneficiarioId);
+            ViewData["BeneficiarioId"] = new SelectList(_context.Beneficiarios, "Id", "Name", dependente.BeneficiarioId);
             return View(dependente);
         }
 
@@ -119,7 +119,7 @@ namespace cadastro_beneficiario.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["BeneficiarioId"] = new SelectList(_context.Beneficiarios, "Id", "Bairro", dependente.BeneficiarioId);
+            ViewData["BeneficiarioId"] = new SelectList(_context.Beneficiarios, "Id", "Name", dependente.BeneficiarioId);
             return View(dependente);
         }
 
