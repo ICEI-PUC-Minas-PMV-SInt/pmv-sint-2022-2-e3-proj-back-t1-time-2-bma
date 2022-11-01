@@ -6,9 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using cadastro_beneficiario.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace cadastro_beneficiario.Controllers
 {
+    [Authorize]
     public class DependentesController : Controller
     {
         private readonly ApplicationDbContext _context;

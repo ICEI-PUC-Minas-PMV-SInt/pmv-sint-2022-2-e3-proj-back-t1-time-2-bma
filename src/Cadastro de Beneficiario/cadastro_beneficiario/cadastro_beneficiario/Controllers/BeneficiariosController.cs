@@ -6,9 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using cadastro_beneficiario.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace cadastro_beneficiario.Controllers
 {
+    [Authorize]
     public class BeneficiariosController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -41,6 +43,8 @@ namespace cadastro_beneficiario.Controllers
 
             return View(beneficiario);
         }
+
+        
         public async Task<IActionResult>Dependentes(int? id)
         {
             if (id == null || _context.Beneficiarios == null)
