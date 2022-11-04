@@ -6,16 +6,19 @@
 
 
 <div class="row">
-<h2>Beneficiários</h2>
+<h3>Beneficiários</h3>
 
 <p>
     <a asp-action="Create" class="btn btn-primary">Cadastrar Beneficiário</a>
     
 </p>
 </div>
-<table class="table">
+<table class="table table-striped">
     <thead>
         <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
             <th>
                 @Html.DisplayNameFor(model => model.Name)
             </th>
@@ -61,6 +64,9 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
+            <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Name)
             </td>
@@ -116,7 +122,7 @@
             }
     
             <td>
-                <a asp-controller="Dependentes" asp-action="Index">Cadastrar Dependente</a>|                
+                <a asp-controller="Dependentes" asp-action="Index">Cadastrar Dependente</a>              
                 <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
                 <a asp-action="Details" asp-route-id="@item.Id">Detalhes</a> |
                 <a asp-action="Delete" asp-route-id="@item.Id">Apagar</a>
