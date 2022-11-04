@@ -157,8 +157,9 @@ A hospedagem do projeto ser√° realizada na plataforma Heroku. Nessa plataforma √
 
 O diagrama de classes do projeto pode ser visualizado na imagem a seguir.
 
+![Diagrama de classe atualizado](https://user-images.githubusercontent.com/89482697/199966608-0bf7417f-500c-4c08-b51c-ef01995ffc23.png)
 
-![diagrama de classes](https://user-images.githubusercontent.com/89482697/195841403-b59e84f0-8a44-4001-b486-b1c3416cd7ce.png)
+
 
 ## Modelo ER
 
