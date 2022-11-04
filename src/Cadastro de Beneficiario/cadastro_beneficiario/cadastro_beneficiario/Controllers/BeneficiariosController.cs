@@ -74,7 +74,7 @@ namespace cadastro_beneficiario.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,CPF,Data_Nascimento,Logradouro,Numero,Complemento,Bairro,Cidade,UF,CEP")] Beneficiario beneficiario)
+        public async Task<IActionResult> Create([Bind("Id,Name,CPF,Data_Nascimento,Logradouro,Numero,Complemento,Bairro,Cidade,UF,CEP,Cesta_basica,Cesta_Verde")] Beneficiario beneficiario)
         {
           // if (ModelState.IsValid){
             
@@ -106,7 +106,7 @@ namespace cadastro_beneficiario.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,CPF,Data_Nascimento,Logradouro,Numero,Complemento,Bairro,Cidade,UF,CEP")] Beneficiario beneficiario)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,CPF,Data_Nascimento,Logradouro,Numero,Complemento,Bairro,Cidade,UF,CEP,Cesta_basica,Cesta_Verde")] Beneficiario beneficiario)
         {
             if (id != beneficiario.Id)
             {

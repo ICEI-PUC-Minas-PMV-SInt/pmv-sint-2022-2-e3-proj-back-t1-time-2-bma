@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <Content Remove="Views\Beneficiarios\Dependente.cshtml" />
+    <Content Remove="Views\Beneficiarios\Index.cshtml.cshtml" />
   </ItemGroup>
 
   <ItemGroup>

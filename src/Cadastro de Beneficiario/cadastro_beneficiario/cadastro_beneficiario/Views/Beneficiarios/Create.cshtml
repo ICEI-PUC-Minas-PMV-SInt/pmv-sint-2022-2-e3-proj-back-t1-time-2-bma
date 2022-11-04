@@ -70,6 +70,22 @@
                     <span asp-validation-for="CEP" class="text-danger"></span>
                 </div>
             </div>
+            <div class="row mt-4">
+                <fieldset class="fs-4">Tipo de Cesta</fieldset><hr />
+                <div class="form-check">
+                    <label asp-for="Cesta_basica" class="form-check-label"></label>
+                    <input asp-for="Cesta_basica" class="form-check-input" />
+                    <span asp-validation-for="Cesta_basica" class="text-danger"></span>
+                </div>
+                <div class="form-check">
+                    <label asp-for="Cesta_Verde" class="form-check-label"></label>
+                    <input asp-for="Cesta_Verde" class="form-check-input" />
+                    <span asp-validation-for="Cesta_Verde" class="text-danger"></span>
+                    
+                </div>
+
+            </div>
+
             <div class="form-group mt-4">
                 <input type="submit" value="Cadastrar" class="btn btn-primary" />
                 <a asp-action="Index" class="btn btn-primary">Voltar</a>

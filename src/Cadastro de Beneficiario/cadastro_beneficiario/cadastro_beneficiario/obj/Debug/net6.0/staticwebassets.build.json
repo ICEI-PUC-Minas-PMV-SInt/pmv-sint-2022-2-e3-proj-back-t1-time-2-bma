@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "92ptljrE3MLG/9g64KfcsfZEqms+Tp9N2H2O4m4K/5I=",
+  "Hash": "er7TGfMIbLsUbSEag/B17Cjhx9bv/Iovw4JNMbcJ5bo=",
   "Source": "cadastro_beneficiario",
   "BasePath": "_content/cadastro_beneficiario",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\workspace\\projetoPUCMinas\\BMA 2 SEMESTRE\\src\\Cadastro de Beneficiario\\cadastro_beneficiario\\cadastro_beneficiario\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\cadastro_beneficiario.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\workspace\\projetoPUCMinas\\BMA 2 SEMESTRE\\src\\Cadastro de Beneficiario\\cadastro_beneficiario\\cadastro_beneficiario\\wwwroot\\css\\personalizado.css",
+      "SourceId": "cadastro_beneficiario",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\workspace\\projetoPUCMinas\\BMA 2 SEMESTRE\\src\\Cadastro de Beneficiario\\cadastro_beneficiario\\cadastro_beneficiario\\wwwroot\\",
+      "BasePath": "_content/cadastro_beneficiario",
+      "RelativePath": "css/personalizado.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\personalizado.css"
     },
     {
       "Identity": "C:\\workspace\\projetoPUCMinas\\BMA 2 SEMESTRE\\src\\Cadastro de Beneficiario\\cadastro_beneficiario\\cadastro_beneficiario\\wwwroot\\css\\site.css",

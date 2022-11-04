@@ -42,6 +42,11 @@ namespace cadastro_beneficiario.Models
         [Required(ErrorMessage = "Campo Obrigatório")]
         public string CEP { get; set; }
 
+        [Display(Name ="Cesta Básica")]
+        public bool Cesta_basica { get; set; }
+        [Display(Name="Cesta Verde")]
+        public bool Cesta_Verde { get; set; }
+
         public ICollection<Dependente> Dependentes { get; set; }
 
 

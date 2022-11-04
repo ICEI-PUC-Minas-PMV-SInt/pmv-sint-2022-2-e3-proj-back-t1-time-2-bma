@@ -46,6 +46,15 @@
             <th>
                 @Html.DisplayNameFor(model => model.CEP)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cesta_basica)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cesta_Verde)
+            </th>
+            <th>
+                Ações
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -82,9 +91,32 @@
             <td>
                 @Html.DisplayFor(modelItem => item.CEP)
             </td>
+            @if(item.Cesta_basica == true)
+            {
+                <td>
+                   Sim
+                </td>
+                }
+            else{
+                <td>
+                    Não
+                </td>
+            }
+            @if (item.Cesta_Verde == true)
+            {
+                <td>
+                    Sim
+                </td>
+                }
+            else
+            {
+                <td>
+                    Não
+                </td>
+            }
     
             <td>
-                <a asp-controller="Dependentes" asp-action="Create">Cadastrar Dependente</a>|                
+                <a asp-controller="Dependentes" asp-action="Index">Cadastrar Dependente</a>|                
                 <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
                 <a asp-action="Details" asp-route-id="@item.Id">Detalhes</a> |
                 <a asp-action="Delete" asp-route-id="@item.Id">Apagar</a>
