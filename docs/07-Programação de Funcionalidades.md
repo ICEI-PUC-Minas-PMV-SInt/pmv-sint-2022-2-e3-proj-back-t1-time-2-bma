@@ -17,7 +17,7 @@ Na terceira etapa do projeto desenvolvemos as telas do sistema conforme os requi
 |RF-009| Permitir que o usuário visualize histórico de retirada dos beneficiários| Cadastro Doações|Dayana|
 
 
-
+# Login
 **Estrutura**
 
 Na camada Controller, que será responsável pelo gerenciamento das requisições do sistema, o arquivo criado foi o UsuárioController.cs. Onde está inserido o código do CRUD e da validação de usuário e senha para login no sistema, bem como a criptografia para manutenção da segurança dos dados.
@@ -109,6 +109,7 @@ Tela final da sessão de Login do Usuário:
 
 As telas desenvolvidas pelas integrantes do grupo podem ser visualizadas nos vídeos a seguir:
 
+# Cadastro de Beneficiário
 1. Tela de Cadastro de Beneficiário.
 
 https://user-images.githubusercontent.com/89482697/201929313-1535a83c-3267-4664-9136-e9400d5c2b7a.mp4
