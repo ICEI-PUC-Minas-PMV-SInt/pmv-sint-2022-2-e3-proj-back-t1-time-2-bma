@@ -2,6 +2,8 @@
 
 Na elaboração do projeto para esta etapa, a aplicação web do Banco Municipal de Alimentos será estruturada no padrão MVC usando a plataforma Asp.NET Core. A aplicação será desenvolvida com base no princípio de separação de interesses, a qual será dividida em três camadas: Model, Controller e View. Assegurando assim, o baixo acoplamento e facilidade dos testes, no processo de desenvolvimento da aplicação.
 
+# Login
+
 Para esta fase inicial do projeto seguiremos com o requisito funcional RF-01 (Permitir que o usuário faça login de entrada). Na qual será criada uma tela de login de Usuário implementando a funcionalidade de acesso e permanência no sistema, tabém como a possibilidade de logout.
 
 **Estrutura**
