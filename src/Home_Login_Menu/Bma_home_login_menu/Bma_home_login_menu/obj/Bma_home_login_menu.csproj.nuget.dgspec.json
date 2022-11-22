@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\source\\repos\\pmv-sint-2022-2-e3-proj-back-t1-time-2-bma\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\Bma_home_login_menu.csproj": {}
+    "C:\\Users\\Admin\\source\\repos\\v1\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\Bma_home_login_menu.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\source\\repos\\pmv-sint-2022-2-e3-proj-back-t1-time-2-bma\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\Bma_home_login_menu.csproj": {
+    "C:\\Users\\Admin\\source\\repos\\v1\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\Bma_home_login_menu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\pmv-sint-2022-2-e3-proj-back-t1-time-2-bma\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\Bma_home_login_menu.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\v1\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\Bma_home_login_menu.csproj",
         "projectName": "Bma_home_login_menu",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\pmv-sint-2022-2-e3-proj-back-t1-time-2-bma\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\Bma_home_login_menu.csproj",
+        "projectPath": "C:\\Users\\Admin\\source\\repos\\v1\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\Bma_home_login_menu.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\source\\repos\\pmv-sint-2022-2-e3-proj-back-t1-time-2-bma\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\source\\repos\\v1\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,17 +40,25 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.10, )"
+              "version": "[7.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.10, )"
+              "version": "[7.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.10, )"
             }
