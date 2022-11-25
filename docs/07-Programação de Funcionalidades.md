@@ -16,6 +16,21 @@ Na terceira etapa do projeto desenvolvemos as telas do sistema conforme os requi
 |RF-008| Restringir a retirada de cesta, conforme periodicidade estabelecida pelo município| Cadastro Doações|Dayana|
 |RF-009| Permitir que o usuário visualize histórico de retirada dos beneficiários| Cadastro Doações|Dayana|
 
+<hr>
+Funcionalidade que os usuários terão acesso de acordo com o perfil:
+
+|Requisito | Funcionalidade | Perfil|
+|:------:|:----:|:-----:|
+|RF-001|  Login| Admin, User|
+|RF-002|  Login | Admin, User|
+|RF-003|  Cadastro Funcionário |Admin|
+|RF-004|  Cadastro Funcionário|Admin|
+|RF-005|  Cadastro de Beneficiário|Admin|
+|RF-006|  Cadastro de Beneficiário|Admin|
+|RF-007|  Cadastro Doações|Admin, User|
+|RF-008|  Cadastro Doações|Admin, User|
+|RF-009|  Cadastro Doações|Admin,User|
+
 
 # Login
 **Estrutura**
