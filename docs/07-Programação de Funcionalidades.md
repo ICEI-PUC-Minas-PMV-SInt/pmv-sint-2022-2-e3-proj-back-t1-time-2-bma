@@ -35,19 +35,41 @@ Funcionalidade que os usuários terão acesso de acordo com o perfil:
 # Login
 **Estrutura**
 
-Na camada Controller, que será responsável pelo gerenciamento das requisições do sistema, o arquivo criado foi o UsuárioController.cs. Onde está inserido o código do CRUD e da validação de usuário e senha para login no sistema, bem como a criptografia para manutenção da segurança dos dados.
+Na camada Controller, que será responsável pelo gerenciamento das requisições do sistema, temos a classe FuncionariosController.cs. Nela está inserido o código CRUD, como também o de validação de usuário, implementada de acordo com o perfil de acesso. Esssa validação ocorre através de senha, que está protegida por uma função hash, garantindo assim a segurança dos dados.
 
 ![Funcionalidades](img/_controller.jpg)
 
-Código fonte presente no UsuáriosController.cs, para validação de Matrícula e Senha do usuário e permanência no sistema:
+Código fonte presente no FuncionariosController.cs, com validação por meio de Cpf e Senha do usuário. E também implementado a navegação de acordo com perfil do usuário no sistema:
 
-            if(user == null)
+            [Authorize]
+    public class FuncionariosController : Controller
+    {
+        private readonly ApplicationDbContext _context;
+
+        public FuncionariosController(ApplicationDbContext context)
+        {
+            _context = context;
+        }
+        [AllowAnonymous]
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [AllowAnonymous]
+        public async Task<IActionResult> Login([Bind("Cpf,Senha")] Funcionario funcionario)
+        {
+            var user = await _context.Funcionarios
+              .FirstOrDefaultAsync(m => m.Cpf == funcionario.Cpf);
+
+            if (user == null)
             {
                 ViewBag.Message = "Usuário e/ou Senha inválidos!";
                 return View();
             }
 
-            bool senhaOk = BCrypt.Net.BCrypt.Verify(usuario.Senha, user.Senha);
+            bool senhaOk = BCrypt.Net.BCrypt.Verify(funcionario.Senha, user.Senha);
 
             if (senhaOk)
             {
@@ -55,12 +77,12 @@ Código fonte presente no UsuáriosController.cs, para validação de Matrícula
                 {
                   new Claim (ClaimTypes.Name, user.Nome),
                   new Claim (ClaimTypes.NameIdentifier, user.Nome),
-                  new Claim (ClaimTypes.Role, user.Perfil.ToString())
+                  new Claim (ClaimTypes.Role, user.Perfil_acesso.ToString())
                 };
 
                 var userIdentity = new ClaimsIdentity(claims, "login");
 
-                ClaimsPrincipal userPrincipal = new ClaimsPrincipal(userIdentity);  
+                ClaimsPrincipal principal = new ClaimsPrincipal(userIdentity);
 
                 var props = new AuthenticationProperties
                 {
@@ -70,50 +92,79 @@ Código fonte presente no UsuáriosController.cs, para validação de Matrícula
 
                 };
 
-
-                await HttpContext.SignInAsync(userPrincipal, props);
+                await HttpContext.SignInAsync(principal, props);
 
                 return Redirect("Logado");
-             
+
             }
 
-            ViewBag.Message = "Usuário e/ou Senha inválidos!";
-            return View();
-        }
+Para facilitar o processo de revisão do código adota-se a convenção nomeclatura na escrita da aplicação, como visto no código acima. Como padrão utilizamos camelCase para variáveis e PascalCase para métodos. Já a indentação, com um padrão BSD, auxilia na estruturação do programa.  
 
-Para a camada Model geramos o ApplicationDbContext.cs, que cria uma classe de contexto para configurar o banco de dados. E também o arquivo Usuario.cs, onde ocorre a configuração dos modelos do banco de dados dos usuários, com a tabela (Usuários) e seus atributos (Cpf, Nome, Matrícula, Senha e Perfil). Nessa camada, a lógica de negócio é executada ocorrendo a persistência do estado e dos dados no sistema.
+<hr>
+Para a camada Model geramos o ApplicationDbContext.cs, uma classe de contexto para configurar o banco de dados. Na classe Funcionario.cs, aplica-se a configuração dos modelos do banco de dados dos usuários, com a tabela (Funcionario) e seus atributos. Nessa camada, a lógica de negócio é executada ocorrendo a persistência do estado e dos dados no sistema.
 
 ![Funcionalidades](img/_models.jpg)
 
-Código fonte referente ao arquivo Usuario.cs:
+Código fonte presente na classe Funcionario.cs:
 
-    [Table("Usuarios")]
-    public class Usuario
+    [Table("Funcionario")]
+    public class Funcionario
     {
         [Key]
-        public int Cpf { get; set; }
+        public int Id { get; set; }
 
         [Required(ErrorMessage = "Campo obrigatório!")]
         public string Nome { get; set; }
 
-        [Required (ErrorMessage ="Campo obrigatório!")]
-        public string Matricula { get; set; }
+        [Required(ErrorMessage = "Campo obrigatório!")]
+        public string Cpf { get; set; }
 
-        [Required (ErrorMessage ="Campo obrigatório!")]
+        [Required(ErrorMessage = "Campo obrigatório!")]
+        public string Data_nascimento { get; set; }
+
+        [Required]
+        public string Email { get; set; }
+
+        [Required(ErrorMessage = "Campo obrigatório!")]
+        public string Telefone { get; set; }
+
+        [Required(ErrorMessage = "Campo obrigatório!")]
+        public string Cep { get; set; }
+
+        [Required(ErrorMessage = "Campo obrigatório!")]
+        public string Logradouro { get; set; }
+
+        [Required(ErrorMessage = "Campo obrigatório!")]
+        public string Numero { get; set; }
+
+        public string Complemento { get; set; }
+
+        [Required(ErrorMessage = "Campo obrigatório!")]
+        public string Bairro { get; set; }
+
+        [Required(ErrorMessage = "Campo obrigatório!")]
+        public string Cidade { get; set; }
+
+        [Required(ErrorMessage = "Campo obrigatório!")]
+        public string Uf { get; set; }
+
+        public string Situacao { get; set; }
+
+        [Required(ErrorMessage = "Campo obrigatório!")]
+        public Perfil Perfil_acesso { get; set; }
+
+        [Required(ErrorMessage = "Campo obrigatório!")]
         [DataType(DataType.Password)]
         public string Senha { get; set; }
-
-        [Required (ErrorMessage ="Campo obrigatório!")]
-        public Perfil Perfil { get; set; }
     }
-
     public enum Perfil
     {
         Admin,
         User
     }
 
-Já na camada View responsável pela exibição do conteúdo da Interface do usuário, encontram-se os arquivos da Home da aplicação, Login.cshtml e a página acessada com senha, possibilitando o logout do usuário. Nessa camada os artefatos gerados são arquivos de marcação de texto, HTML. Nela ocorre o envio e a renderização das informações para o modelo através do controle. 
+<hr>
+Já na camada View responsável pela exibição do conteúdo da Interface do usuário, encontram-se os arquivos da Home da aplicação, Login.cshtml, AccessDenied.cshtml e Logado.cshtml. Nesse último está inserido um menu com botões para navegação e acesso a inserção, edição e exclusão de cadastros, mas que se limita ao perfil permitido(Admin). Outras funcionalidades que poderão ser acessadas pelo menu, são de cadastro e histórico de retirada de cestas. Essas opções estarão aa todos usuários pertinentes no sistema (Admin e User). Nessa camada os artefatos gerados são arquivos de marcação de texto, HTML. Nela ocorre o envio e a renderização das informações para o modelo através do controle. 
 
 ![Funcionalidades](img/_views.jpg)
 
