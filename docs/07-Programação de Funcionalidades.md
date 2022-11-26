@@ -1,6 +1,8 @@
 # Programação de Funcionalidades
 
-Na elaboração do projeto para esta etapa, a aplicação web do Banco Municipal de Alimentos será estruturada no padrão MVC usando a plataforma Asp.NET Core. A aplicação será desenvolvida com base no princípio de separação de interesses, a qual será dividida em três camadas: Model, Controller e View. Assegurando assim, o baixo acoplamento e facilidade dos testes, no processo de desenvolvimento da aplicação.
+Na elaboração do projeto para esta etapa, a aplicação web do Banco Municipal de Alimentos será estruturada no padrão MVC usando a plataforma Asp.NET Core. A aplicação será desenvolvida com base no princípio de separação de interesses, a qual será dividida em três camadas: Model, Controller e View. Assegurando assim, o baixo acoplamento e facilidade dos testes, no processo de desenvolvimento da aplicação. 
+Os frameworks utilizados na criação do sistema, serviram como ferramentas para estruturação e configuração do projeto. Além de trazer um padrão de código mais limpo e seguro. O uso desses frameworks garantiram maior clareza de entendimento, facilitando assim o avanço no desenvolvimento do nosso projeto. 
+Uma das desvantagens da utilização, é a complexidade de configuração. Isso pode gerar dificuldade na implementação e conflito na comunicação com outras partes do sistema que estamos desenvolvendo.
 
 Na terceira etapa do projeto desenvolvemos as telas do sistema conforme os requisitos funcionais RF-01 a RF-009. As telas desenvolvidas, bem como cada integrante responsável são descritas no quadro a seguir. 
 
@@ -17,7 +19,7 @@ Na terceira etapa do projeto desenvolvemos as telas do sistema conforme os requi
 |RF-009| Permitir que o usuário visualize histórico de retirada dos beneficiários| Cadastro Doações|Dayana|
 
 <hr>
-Funcionalidade que os usuários terão acesso de acordo com o perfil:
+Navegação pelas funcionalidade de acordo com o perfil de acesso do usuário :
 
 |Requisito | Funcionalidade | Perfil|
 |:------:|:----:|:-----:|
@@ -37,9 +39,9 @@ Funcionalidade que os usuários terão acesso de acordo com o perfil:
 
 Na camada Controller, que será responsável pelo gerenciamento das requisições do sistema, temos a classe FuncionariosController.cs. Nela está inserido o código CRUD, como também o de validação de usuário, implementada de acordo com o perfil de acesso. Esssa validação ocorre através de senha, que está protegida por uma função hash, garantindo assim a segurança dos dados.
 
-![Funcionalidades](img/_controller.jpg)
+![Funcionalidades](img/controller.png)
 
-Código fonte presente no FuncionariosController.cs, com validação por meio de Cpf e Senha do usuário. E também implementado a navegação de acordo com perfil do usuário no sistema:
+Código fonte presente no FuncionariosController.cs, com validação por meio de Cpf e Senha do usuário. Onde também é implementado a navegação de acordo com perfil do usuário no sistema:
 
             [Authorize]
     public class FuncionariosController : Controller
@@ -98,12 +100,12 @@ Código fonte presente no FuncionariosController.cs, com validação por meio de
 
             }
 
-Para facilitar o processo de revisão do código adota-se a convenção nomeclatura na escrita da aplicação, como visto no código acima. Como padrão utilizamos camelCase para variáveis e PascalCase para métodos. Já a indentação, com um padrão BSD, auxilia na estruturação do programa.  
+Para facilitar o processo de revisão do código, adota-se a convenção de nomeclatura na escrita da aplicação, como visto no código acima. Como padrão utilizamos camelCase para variáveis e PascalCase para métodos. Já a indentação, com um padrão BSD, auxilia na estruturação do programa.  
 
 <hr>
 Para a camada Model geramos o ApplicationDbContext.cs, uma classe de contexto para configurar o banco de dados. Na classe Funcionario.cs, aplica-se a configuração dos modelos do banco de dados dos usuários, com a tabela (Funcionario) e seus atributos. Nessa camada, a lógica de negócio é executada ocorrendo a persistência do estado e dos dados no sistema.
 
-![Funcionalidades](img/_models.jpg)
+![Funcionalidades](img/model.png)
 
 Código fonte presente na classe Funcionario.cs:
 
@@ -164,9 +166,9 @@ Código fonte presente na classe Funcionario.cs:
     }
 
 <hr>
-Já na camada View responsável pela exibição do conteúdo da Interface do usuário, encontram-se os arquivos da Home da aplicação, Login.cshtml, AccessDenied.cshtml e Logado.cshtml. Nesse último está inserido um menu com botões para navegação e acesso a inserção, edição e exclusão de cadastros, mas que se limita ao perfil permitido(Admin). Outras funcionalidades que poderão ser acessadas pelo menu, são de cadastro e histórico de retirada de cestas. Essas opções estarão aa todos usuários pertinentes no sistema (Admin e User). Nessa camada os artefatos gerados são arquivos de marcação de texto, HTML. Nela ocorre o envio e a renderização das informações para o modelo através do controle. 
+Já na camada View responsável pela exibição do conteúdo da Interface do usuário, encontram-se os arquivos da Home da aplicação, Login.cshtml, AccessDenied.cshtml e Logado.cshtml. Nesse último está inserido um menu para navegação e acesso a inserção, edição e exclusão de cadastros, mas que se limita ao perfil permitido(Admin). Outras funcionalidades que poderão ser acessadas pelo menu, são de cadastro e histórico de retirada de cestas. Essas opções estarão disponíveis a todos usuários pertinentes no sistema (Admin e User). Nessa camada os artefatos gerados são arquivos de marcação de texto, HTML. Nela ocorre o envio e a renderização das informações para o modelo através do controle. 
 
-![Funcionalidades](img/_views.jpg)
+![Funcionalidades](img/views.png)
 
 Tela final da sessão de Login do Usuário:
 
