@@ -184,7 +184,11 @@ https://user-images.githubusercontent.com/89482697/201929313-1535a83c-3267-4664-
 
 # Cadastro de Funcionário
 
-![Funcionalidades](img/app-web-backend-em-execucao-microsoft-visual-studio-2022-11-27-17-29-42_60wmghm3.mp4)
+https://user-images.githubusercontent.com/90966250/204158814-45036e07-47b8-4322-a628-8440a21b0f81.mp4
+
+
+
+
 
 > **Links Úteis**:
 >
