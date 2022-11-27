@@ -23,11 +23,11 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 > |Caso de Teste|CT-02||
 > |-------------|-----|----|
 > |Critérios de êxito|Avaliação|Observações|
-> |Após o login a página de cadastro de funcionários foi carregada|||
-> |A página apresentou o formulário de cadastro|||
-> |O cadastro de funcionário foi realizado|||
-> |Os dados dos funcionários foram alterados|||
-> |Após logoff, a página para o login foi novamente carregada.|||
+> |Após o login a página de cadastro de funcionários foi carregada|Sim||
+> |A página apresentou o formulário de cadastro|Sim||
+> |O cadastro de funcionário foi realizado|Sim||
+> |Os dados dos funcionários foram alterados|Sim||
+> |Após logoff, a página para o login foi novamente carregada.|Sim||
 > 
 > |Caso de Teste|CT-03||
 > |-------------|-----|----|
