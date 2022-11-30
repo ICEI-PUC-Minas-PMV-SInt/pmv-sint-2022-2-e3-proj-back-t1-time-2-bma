@@ -186,6 +186,10 @@ https://user-images.githubusercontent.com/89482697/201929313-1535a83c-3267-4664-
 
 https://user-images.githubusercontent.com/90966250/204158814-45036e07-47b8-4322-a628-8440a21b0f81.mp4
 
+# Registro de Doação
+
+[https://user-images.githubusercontent.com/90966250/204158814-45036e07-47b8-4322-a628-8440a21b0f81.mp4](https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2022-2-e3-proj-back-t1-time-2-bma/blob/main/docs/img/doacaovideo.mp4)
+
 
 
 
