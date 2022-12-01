@@ -14,7 +14,6 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Amanda Paloma Lourenço
 * Dayana Cecília Reis Beirigo Dutra
 * Elaine Souza Melo
-* Leonardo Ruas Santos
 
 
 
