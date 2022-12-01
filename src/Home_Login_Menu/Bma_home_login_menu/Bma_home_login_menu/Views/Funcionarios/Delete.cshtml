@@ -1,0 +1,45 @@
+﻿@model Bma_home_login_menu.Models.Funcionario
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1 class="fs-3">Excluir</h1>
+
+<h3 class="fs-4">Deseja excluir esse cadastro?</h3>
+<div>
+    <h4 class="fs-5">Funcionário</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Cpf)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Cpf)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Data_nascimento)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Data_nascimento)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Perfil_acesso)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Perfil_acesso)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Voltar</a>
+    </form>
+</div>
