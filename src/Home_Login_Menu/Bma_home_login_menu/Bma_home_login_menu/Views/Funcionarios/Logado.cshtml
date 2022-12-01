@@ -6,10 +6,10 @@
 <div style="margin-top:30px">
     @if (User.Identity.IsAuthenticated){
     <div class="d-grid gap-2 col-6 mx-auto">
-        <a class="btn btn-outline-success" asp-area="" asp-controller="" asp-action="">CADASTRO DE RETIRADA</a>
+        <a class="btn btn-outline-success" asp-area="" asp-controller="Doacoes" asp-action="Create">CADASTRO DE RETIRADA</a>
         <a class="btn btn-outline-success" asp-area="" asp-controller="" asp-action="">HISTÓRICO DE RETIRADA</a>
         @if(User.IsInRole("Admin")){
-        <a class="btn btn-outline-success" asp-area="" asp-controller="" asp-action="">CADASTRO BENEFICIÁRIO</a>
+        <a class="btn btn-outline-success" asp-area="" asp-controller="Beneficiarios" asp-action="Create">CADASTRO BENEFICIÁRIO</a>
         <a class="btn btn-outline-success" asp-area="" asp-controller="Funcionarios" asp-action="Index">CADASTRO FUNCIONÁRIO</a>
         }
 

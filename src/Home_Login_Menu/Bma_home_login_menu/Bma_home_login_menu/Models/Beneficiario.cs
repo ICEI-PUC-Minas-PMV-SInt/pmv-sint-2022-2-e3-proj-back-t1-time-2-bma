@@ -48,6 +48,7 @@ namespace Bma_home_login_menu.Models
         public bool Cesta_Verde { get; set; }
 
         public ICollection<Dependente> Dependentes { get; set; }
+        public ICollection<Doacao> Doacoes {get; set; }
 
 
     }

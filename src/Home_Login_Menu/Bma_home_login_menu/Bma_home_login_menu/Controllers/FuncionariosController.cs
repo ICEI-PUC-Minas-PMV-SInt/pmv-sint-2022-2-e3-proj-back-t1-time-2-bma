@@ -40,9 +40,9 @@ namespace Bma_home_login_menu.Controllers
                 return View();
             }
 
-            bool senhaOk = BCrypt.Net.BCrypt.Verify(funcionario.Senha, user.Senha);
+           // bool senhaOk = BCrypt.Net.BCrypt.Verify(funcionario.Senha, user.Senha);
 
-            if (senhaOk)
+            //if (senhaOk)
             {
                 //Criar a credencial, a utenticação ficará no cache da aplicação.
                 var claims = new List<Claim>
@@ -133,7 +133,7 @@ namespace Bma_home_login_menu.Controllers
         {
             if (ModelState.IsValid)
             {
-                funcionario.Senha = BCrypt.Net.BCrypt.HashPassword(funcionario.Senha);
+                //funcionario.Senha = BCrypt.Net.BCrypt.HashPassword(funcionario.Senha);
                 _context.Add(funcionario);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));

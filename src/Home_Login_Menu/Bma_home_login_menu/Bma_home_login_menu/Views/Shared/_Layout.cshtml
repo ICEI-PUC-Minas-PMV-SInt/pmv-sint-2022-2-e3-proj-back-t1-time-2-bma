@@ -25,6 +25,23 @@
                         </li>
                         @if (User.Identity.IsAuthenticated)
                         {
+                            @if (User.IsInRole("Admin") || User.IsInRole("User"))
+                            {
+                                <li class="nav-item text-light" style="font-weight:600">
+                                    <a class="nav-link text-light" asp-area="" asp-controller="Beneficiarios" asp-action="Create">Cadastrar Beneficiário</a>
+                                </li>
+                            }
+
+                            @if (User.IsInRole("Admin"))
+                            {
+                                <li class="nav-item text-light" style="font-weight:600">
+                                    <a class="nav-link text-light" asp-area="" asp-controller="Funcionarios" asp-action="Create">Cadastrar Funcionário</a>
+                                </li>
+                            }
+                        }
+                        
+                        @if (User.Identity.IsAuthenticated)
+                        {
                             <li class="d-inline p-2 text-light" style="margin-right:70px; font-weight:600">
                                 Olá, @User.Identity.Name ! <a class="d-inline p-2 text-light" ; asp-area="" asp-controller="Funcionarios" asp-action="Logout">Sair</a>
                             </li>

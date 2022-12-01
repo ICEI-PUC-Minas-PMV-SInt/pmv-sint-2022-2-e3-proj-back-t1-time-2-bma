@@ -88,15 +88,14 @@
                 <span asp-validation-for="Senha" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Salvar" class=" btn btn-info text-light" style="margin-top:10px" />
+                <input type="submit" value="Salvar" class=" btn" style="background-color: #006400;color:#fff" />
+                <a class="btn" style="background-color: #006400;color:#fff" asp-action="Index">Voltar</a>
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a class="btn btn-secondary" style="margin-top:10px" asp-action="Index">Voltar</a>
-</div>
+
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

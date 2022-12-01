@@ -2,16 +2,16 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\Cadastro de Beneficiario",
-    "\\src\\Cadastro de Beneficiario\\cadastro_beneficiario",
-    "\\src\\Cadastro de Beneficiario\\cadastro_beneficiario\\cadastro_beneficiario",
-    "\\src\\Cadastro de Beneficiario\\cadastro_beneficiario\\cadastro_beneficiario\\Views",
+    "\\src\\Dayana",
+    "\\src\\Dayana\\banco-alimentos",
+    "\\src\\Dayana\\banco-alimentos\\banco-alimentos",
+    "\\src\\Dayana\\banco-alimentos\\banco-alimentos\\Views",
     "\\src\\Home_Login_Menu",
     "\\src\\Home_Login_Menu\\Bma_home_login_menu",
     "\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu",
     "\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\Views",
-    "\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\Views\\Funcionarios"
+    "\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\Views\\Beneficiarios"
   ],
-  "SelectedNode": "\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\Views\\Funcionarios\\Create.cshtml",
+  "SelectedNode": "\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\Views\\Beneficiarios\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }
