@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿
+using Microsoft.EntityFrameworkCore;
 
 namespace Bma_home_login_menu.Models
 {
@@ -8,5 +9,7 @@ namespace Bma_home_login_menu.Models
         {
         }
         public DbSet<Funcionario> Funcionarios { get; set; }
+        public DbSet<Beneficiario> Beneficiarios { get; set; }
+        public DbSet<Dependente> Dependentes { get; set; }
     }
 }

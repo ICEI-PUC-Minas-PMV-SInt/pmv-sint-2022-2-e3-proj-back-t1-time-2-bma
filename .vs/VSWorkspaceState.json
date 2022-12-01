@@ -2,8 +2,16 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\Cadastro de Beneficiario"
+    "\\src\\Cadastro de Beneficiario",
+    "\\src\\Cadastro de Beneficiario\\cadastro_beneficiario",
+    "\\src\\Cadastro de Beneficiario\\cadastro_beneficiario\\cadastro_beneficiario",
+    "\\src\\Cadastro de Beneficiario\\cadastro_beneficiario\\cadastro_beneficiario\\Views",
+    "\\src\\Home_Login_Menu",
+    "\\src\\Home_Login_Menu\\Bma_home_login_menu",
+    "\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu",
+    "\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\Views",
+    "\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\Views\\Funcionarios"
   ],
-  "SelectedNode": "\\src\\Cadastro de Beneficiario",
+  "SelectedNode": "\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\Views\\Funcionarios\\Create.cshtml",
   "PreviewInSolutionExplorer": false
 }

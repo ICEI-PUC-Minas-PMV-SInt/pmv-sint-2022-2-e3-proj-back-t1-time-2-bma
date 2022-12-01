@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\source\\repos\\v1\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\Bma_home_login_menu.csproj": {}
+    "C:\\workspace\\projetoPUCMinas\\BMA 2 SEMESTRE\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\Bma_home_login_menu.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\source\\repos\\v1\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\Bma_home_login_menu.csproj": {
+    "C:\\workspace\\projetoPUCMinas\\BMA 2 SEMESTRE\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\Bma_home_login_menu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\v1\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\Bma_home_login_menu.csproj",
+        "projectUniqueName": "C:\\workspace\\projetoPUCMinas\\BMA 2 SEMESTRE\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\Bma_home_login_menu.csproj",
         "projectName": "Bma_home_login_menu",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\v1\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\Bma_home_login_menu.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\source\\repos\\v1\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\obj\\",
+        "projectPath": "C:\\workspace\\projetoPUCMinas\\BMA 2 SEMESTRE\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\Bma_home_login_menu.csproj",
+        "packagesPath": "C:\\Users\\dridr\\.nuget\\packages\\",
+        "outputPath": "C:\\workspace\\projetoPUCMinas\\BMA 2 SEMESTRE\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dridr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

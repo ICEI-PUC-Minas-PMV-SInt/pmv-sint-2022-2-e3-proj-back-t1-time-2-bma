@@ -1,0 +1,32 @@
+﻿@model Bma_home_login_menu.Models.Dependente
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h3>Dependente</h3>
+
+<div>
+    <h4>Beneficiário: @Html.DisplayFor(model => model.Beneficiario.Name)</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Data_Nascimento)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Data_Nascimento)
+        </dd>
+        
+        
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Editar</a> |
+    <a asp-action="Index">Voltar</a>
+</div>

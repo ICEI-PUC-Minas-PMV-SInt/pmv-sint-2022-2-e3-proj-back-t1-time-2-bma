@@ -8,69 +8,117 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Bma_home_login_menu
 build_property.RootNamespace = Bma_home_login_menu
-build_property.ProjectDir = C:\Users\Admin\source\repos\v1\src\Home_Login_Menu\Bma_home_login_menu\Bma_home_login_menu\
+build_property.ProjectDir = C:\workspace\projetoPUCMinas\BMA 2 SEMESTRE\src\Home_Login_Menu\Bma_home_login_menu\Bma_home_login_menu\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Admin\source\repos\v1\src\Home_Login_Menu\Bma_home_login_menu\Bma_home_login_menu
+build_property.MSBuildProjectDirectory = C:\workspace\projetoPUCMinas\BMA 2 SEMESTRE\src\Home_Login_Menu\Bma_home_login_menu\Bma_home_login_menu
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Admin/source/repos/v1/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/Funcionarios/AccessDenied.cshtml]
+[C:/workspace/projetoPUCMinas/BMA 2 SEMESTRE/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/Beneficiarios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVuZWZpY2lhcmlvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/workspace/projetoPUCMinas/BMA 2 SEMESTRE/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/Beneficiarios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVuZWZpY2lhcmlvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/workspace/projetoPUCMinas/BMA 2 SEMESTRE/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/Beneficiarios/Dependente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVuZWZpY2lhcmlvc1xEZXBlbmRlbnRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/workspace/projetoPUCMinas/BMA 2 SEMESTRE/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/Beneficiarios/Dependentes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVuZWZpY2lhcmlvc1xEZXBlbmRlbnRlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/workspace/projetoPUCMinas/BMA 2 SEMESTRE/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/Beneficiarios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVuZWZpY2lhcmlvc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/workspace/projetoPUCMinas/BMA 2 SEMESTRE/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/Beneficiarios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVuZWZpY2lhcmlvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/workspace/projetoPUCMinas/BMA 2 SEMESTRE/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/Beneficiarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVuZWZpY2lhcmlvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/workspace/projetoPUCMinas/BMA 2 SEMESTRE/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/Dependentes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwZW5kZW50ZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/workspace/projetoPUCMinas/BMA 2 SEMESTRE/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/Dependentes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwZW5kZW50ZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/workspace/projetoPUCMinas/BMA 2 SEMESTRE/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/Dependentes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwZW5kZW50ZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/workspace/projetoPUCMinas/BMA 2 SEMESTRE/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/Dependentes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwZW5kZW50ZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/workspace/projetoPUCMinas/BMA 2 SEMESTRE/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/Dependentes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwZW5kZW50ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/workspace/projetoPUCMinas/BMA 2 SEMESTRE/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/Funcionarios/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnVuY2lvbmFyaW9zXEFjY2Vzc0RlbmllZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/v1/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/Funcionarios/Create.cshtml]
+[C:/workspace/projetoPUCMinas/BMA 2 SEMESTRE/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/Funcionarios/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnVuY2lvbmFyaW9zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/v1/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/Funcionarios/Delete.cshtml]
+[C:/workspace/projetoPUCMinas/BMA 2 SEMESTRE/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/Funcionarios/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnVuY2lvbmFyaW9zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/v1/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/Funcionarios/Details.cshtml]
+[C:/workspace/projetoPUCMinas/BMA 2 SEMESTRE/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/Funcionarios/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnVuY2lvbmFyaW9zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/v1/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/Funcionarios/Edit.cshtml]
+[C:/workspace/projetoPUCMinas/BMA 2 SEMESTRE/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/Funcionarios/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnVuY2lvbmFyaW9zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/v1/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/Funcionarios/Index.cshtml]
+[C:/workspace/projetoPUCMinas/BMA 2 SEMESTRE/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/Funcionarios/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnVuY2lvbmFyaW9zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/v1/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/Funcionarios/Logado.cshtml]
+[C:/workspace/projetoPUCMinas/BMA 2 SEMESTRE/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/Funcionarios/Logado.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnVuY2lvbmFyaW9zXExvZ2Fkby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/v1/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/Funcionarios/Login.cshtml]
+[C:/workspace/projetoPUCMinas/BMA 2 SEMESTRE/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/Funcionarios/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRnVuY2lvbmFyaW9zXExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/v1/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/Home/Index.cshtml]
+[C:/workspace/projetoPUCMinas/BMA 2 SEMESTRE/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/v1/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/Home/Privacy.cshtml]
+[C:/workspace/projetoPUCMinas/BMA 2 SEMESTRE/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/v1/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/Shared/Error.cshtml]
+[C:/workspace/projetoPUCMinas/BMA 2 SEMESTRE/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/v1/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/workspace/projetoPUCMinas/BMA 2 SEMESTRE/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/v1/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/_ViewImports.cshtml]
+[C:/workspace/projetoPUCMinas/BMA 2 SEMESTRE/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/v1/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/_ViewStart.cshtml]
+[C:/workspace/projetoPUCMinas/BMA 2 SEMESTRE/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/v1/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/Shared/_Layout.cshtml]
+[C:/workspace/projetoPUCMinas/BMA 2 SEMESTRE/src/Home_Login_Menu/Bma_home_login_menu/Bma_home_login_menu/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-iqzl9isvt6
