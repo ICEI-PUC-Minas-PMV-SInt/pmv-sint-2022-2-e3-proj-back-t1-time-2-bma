@@ -1,0 +1,41 @@
+﻿@model Bma_home_login_menu.Models.Doacao
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+
+<h4 class="row justify-content-center"> Registrar Retirada</h4>
+<hr />
+<div class="row justify-content-center">
+    <div class="col-md-5">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="BeneficiarioId" class="control-label"></label>
+                <select asp-for="BeneficiarioId" class ="form-control" asp-items="ViewBag.BeneficiarioId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Tipo" class="control-label"></label>
+                <select asp-for="Tipo" class="form-control"asp-items="Html.GetEnumSelectList<TipoCesta>()"></select>
+                <span asp-validation-for="Tipo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Data" class="control-label"></label>
+                <input asp-for="Data" class="form-control" />
+                <span asp-validation-for="Data" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-4">
+                <input type="submit" value="Salvar" class="btn" style="background-color: #006400;color:#fff"/>
+                <a asp-action="Index" class="btn" style="background-color: #006400;color:#fff">Voltar</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

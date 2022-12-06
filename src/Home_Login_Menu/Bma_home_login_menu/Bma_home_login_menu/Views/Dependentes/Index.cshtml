@@ -1,0 +1,49 @@
+﻿@model IEnumerable<Bma_home_login_menu.Models.Dependente>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Dependentes</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Adicionar Dependente</a>
+    <a asp-controller="Beneficiarios" asp-action="Index" class="btn btn-primary">Voltar</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Data_Nascimento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Beneficiario)
+            </th>
+            <th>Ações</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Data_Nascimento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Beneficiario.Name)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Detalhes</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Apagar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

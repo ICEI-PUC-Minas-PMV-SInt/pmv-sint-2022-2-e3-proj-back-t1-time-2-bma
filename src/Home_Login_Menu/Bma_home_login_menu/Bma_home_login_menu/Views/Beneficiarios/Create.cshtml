@@ -1,0 +1,104 @@
+﻿@model Bma_home_login_menu.Models.Beneficiario
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+
+<h4 class="row justify-content-center"> Cadastro de Beneficiario</h4>
+<hr />
+<div class="row justify-content-center">
+    <div class="col-md-5">
+        <form asp-action="Create" class="row">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class=" row mb-4">
+                <fieldset class="fs-4 mb-2">Informações Pessoais</fieldset><hr/>
+                <div class="col-md-6">
+                    <label asp-for="Name" class="control-label"></label>
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="col-md-6">
+                    <label asp-for="CPF" class="control-label"></label>
+                    <input asp-for="CPF" class="form-control" />
+                    <span asp-validation-for="CPF" class="text-danger"></span>
+                </div>
+            
+                <div class="col-md-6">
+                    <label asp-for="Data_Nascimento" class="control-label"></label>
+                    <input asp-for="Data_Nascimento" class="form-control" />
+                    <span asp-validation-for="Data_Nascimento" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <fieldset class="fs-4">Endereço</fieldset><hr/>
+                <div class="col-md-6">
+                    <label asp-for="Logradouro" class="control-label"></label>
+                    <input asp-for="Logradouro" class="form-control" />
+                    <span asp-validation-for="Logradouro" class="text-danger"></span>
+                </div>
+                <div class="col-md-2">
+                    <label asp-for="Numero" class="control-label"></label>
+                    <input asp-for="Numero" class="form-control" />
+                    <span asp-validation-for="Numero" class="text-danger"></span>
+                </div>
+                <div class="col-md-3">
+                    <label asp-for="Complemento" class="control-label"></label>
+                    <input asp-for="Complemento" class="form-control" />
+                    <span asp-validation-for="Complemento" class="text-danger"></span>
+                </div>
+                <div class="col-md-6">
+                    <label asp-for="Bairro" class="control-label"></label>
+                    <input asp-for="Bairro" class="form-control" />
+                    <span asp-validation-for="Bairro" class="text-danger"></span>
+                </div>
+                <div class="col-md-6">
+                    <label asp-for="Cidade" class="control-label"></label>
+                    <input asp-for="Cidade" class="form-control" />
+                    <span asp-validation-for="Cidade" class="text-danger"></span>
+                </div>
+                <div class="col-md-6">
+                    <label asp-for="UF" class="control-label"></label>
+                    <input asp-for="UF" class="form-control" />
+                    <span asp-validation-for="UF" class="text-danger"></span>
+                </div>
+                <div class="col-md-6">
+                    <label asp-for="CEP" class="control-label"></label>
+                    <input asp-for="CEP" class="form-control" />
+                    <span asp-validation-for="CEP" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <fieldset class="fs-4">Tipo de Cesta</fieldset><hr />
+                <div class="form-check">
+                    <label asp-for="Cesta_basica" class="form-check-label"></label>
+                    <input asp-for="Cesta_basica" class="form-check-input" />
+                    <span asp-validation-for="Cesta_basica" class="text-danger"></span>
+                </div>
+                <div class="form-check">
+                    <label asp-for="Cesta_Verde" class="form-check-label"></label>
+                    <input asp-for="Cesta_Verde" class="form-check-input" />
+                    <span asp-validation-for="Cesta_Verde" class="text-danger"></span>
+                    
+                </div>
+
+            </div>
+
+            <div class="form-group mt-4">
+                <input type="submit" value="Salvar" class="btn" style="background-color: #006400;color:#fff" />
+                <a asp-action="Index" class="btn" style="background-color: #006400;color:#fff">Voltar</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    
+    
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

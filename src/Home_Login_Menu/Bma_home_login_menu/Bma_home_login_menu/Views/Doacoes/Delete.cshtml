@@ -1,0 +1,38 @@
+﻿@model Bma_home_login_menu.Models.Doacao
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Doação</h1>
+
+<div>
+    <h5>Excluir</h5>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Beneficiario)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Beneficiario.CPF)
+        </dd class>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Tipo)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Tipo)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Data)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Data)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Excluir" class="btn btn-danger" /> |
+        <a asp-action="Index">Voltar</a>
+    </form>
+</div>

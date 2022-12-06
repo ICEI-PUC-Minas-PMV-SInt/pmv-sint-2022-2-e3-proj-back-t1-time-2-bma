@@ -1,0 +1,50 @@
+﻿@model IEnumerable<Bma_home_login_menu.Models.Doacao>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="row">
+    <h3>Doações</h3>
+
+    <p>
+        <a asp-action="Create" class="btn" style="color:#000 ; border:solid #86BCAA">Novo</a>
+        <a asp-controller="Funcionarios" asp-action="Logado" class="btn" style="color:#000 ; border:solid #86BCAA">Voltar</a>
+    </p>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Beneficiario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tipo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Data)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.OrderByDescending(c => c.Data)) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Beneficiario.CPF)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tipo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Data)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Detalhamento</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Excluir</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
