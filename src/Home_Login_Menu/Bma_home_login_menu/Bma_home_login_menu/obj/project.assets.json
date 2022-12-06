@@ -10481,19 +10481,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dridr\\.nuget\\packages\\": {}
+    "C:\\Users\\dayana.dutra\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\workspace\\projetoPUCMinas\\BMA 2 SEMESTRE\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\Bma_home_login_menu.csproj",
+      "projectUniqueName": "C:\\Users\\dayana.dutra\\Source\\Repos\\pmv-sint-2022-2-e3-proj-back-t1-time-2-bma\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\Bma_home_login_menu.csproj",
       "projectName": "Bma_home_login_menu",
-      "projectPath": "C:\\workspace\\projetoPUCMinas\\BMA 2 SEMESTRE\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\Bma_home_login_menu.csproj",
-      "packagesPath": "C:\\Users\\dridr\\.nuget\\packages\\",
-      "outputPath": "C:\\workspace\\projetoPUCMinas\\BMA 2 SEMESTRE\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\obj\\",
+      "projectPath": "C:\\Users\\dayana.dutra\\Source\\Repos\\pmv-sint-2022-2-e3-proj-back-t1-time-2-bma\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\Bma_home_login_menu.csproj",
+      "packagesPath": "C:\\Users\\dayana.dutra\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dayana.dutra\\Source\\Repos\\pmv-sint-2022-2-e3-proj-back-t1-time-2-bma\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\dridr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dayana.dutra\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10561,7 +10561,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
