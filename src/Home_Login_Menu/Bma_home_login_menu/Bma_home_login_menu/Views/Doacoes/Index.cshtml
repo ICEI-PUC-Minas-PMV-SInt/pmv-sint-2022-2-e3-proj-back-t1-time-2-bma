@@ -4,11 +4,14 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Doações</h1>
+<div class="row">
+    <h3>Doações</h3>
 
-<p>
-    <a asp-action="Create">Novo</a>
-</p>
+    <p>
+        <a asp-action="Create" class="btn" style="color:#000 ; border:solid #86BCAA">Novo</a>
+        <a asp-controller="Funcionarios" asp-action="Logado" class="btn" style="color:#000 ; border:solid #86BCAA">Voltar</a>
+    </p>
+</div>
 <table class="table">
     <thead>
         <tr>

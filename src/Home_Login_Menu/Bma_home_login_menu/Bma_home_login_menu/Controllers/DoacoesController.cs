@@ -59,12 +59,12 @@ namespace Bma_home_login_menu.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,BeneficiarioId,Tipo,Data")] Doacao doacao)
         {
-            if (ModelState.IsValid)
-            {
+           // if (ModelState.IsValid)
+           // {
                 _context.Add(doacao);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
-            }
+           // }
             ViewData["BeneficiarioId"] = new SelectList(_context.Beneficiarios, "Id", "CPF", doacao.BeneficiarioId);
             return View(doacao);
         }
