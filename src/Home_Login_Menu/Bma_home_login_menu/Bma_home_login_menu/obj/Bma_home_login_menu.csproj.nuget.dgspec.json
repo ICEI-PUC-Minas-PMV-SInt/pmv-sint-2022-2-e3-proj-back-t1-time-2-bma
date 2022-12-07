@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dayana.dutra\\Source\\Repos\\pmv-sint-2022-2-e3-proj-back-t1-time-2-bma\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\Bma_home_login_menu.csproj": {}
+    "C:\\Users\\dayan\\Source\\Repos\\pmv-sint-2022-2-e3-proj-back-t1-time-2-bma\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\Bma_home_login_menu.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dayana.dutra\\Source\\Repos\\pmv-sint-2022-2-e3-proj-back-t1-time-2-bma\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\Bma_home_login_menu.csproj": {
+    "C:\\Users\\dayan\\Source\\Repos\\pmv-sint-2022-2-e3-proj-back-t1-time-2-bma\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\Bma_home_login_menu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dayana.dutra\\Source\\Repos\\pmv-sint-2022-2-e3-proj-back-t1-time-2-bma\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\Bma_home_login_menu.csproj",
+        "projectUniqueName": "C:\\Users\\dayan\\Source\\Repos\\pmv-sint-2022-2-e3-proj-back-t1-time-2-bma\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\Bma_home_login_menu.csproj",
         "projectName": "Bma_home_login_menu",
-        "projectPath": "C:\\Users\\dayana.dutra\\Source\\Repos\\pmv-sint-2022-2-e3-proj-back-t1-time-2-bma\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\Bma_home_login_menu.csproj",
-        "packagesPath": "C:\\Users\\dayana.dutra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dayana.dutra\\Source\\Repos\\pmv-sint-2022-2-e3-proj-back-t1-time-2-bma\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\obj\\",
+        "projectPath": "C:\\Users\\dayan\\Source\\Repos\\pmv-sint-2022-2-e3-proj-back-t1-time-2-bma\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\Bma_home_login_menu.csproj",
+        "packagesPath": "C:\\Users\\dayan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dayan\\Source\\Repos\\pmv-sint-2022-2-e3-proj-back-t1-time-2-bma\\src\\Home_Login_Menu\\Bma_home_login_menu\\Bma_home_login_menu\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\dayana.dutra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dayan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
