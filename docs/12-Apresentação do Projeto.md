@@ -1,12 +1,13 @@
 # Apresentação
 
-<span style="color:red">Pré-requisitos: Todos os demais artefatos</span>
+ Projeto gerenciamento de distribuição de cestas básicas.
+ 
+https://user-images.githubusercontent.com/89153098/206276478-456550af-3c15-4591-912e-57a882187f26.mp4
 
-Conjunto de slides em um arquivo PowerPoint ou PDF com a apresentação do projeto contemplando todos os itens trabalhados nos demais artefatos.
 
 ## Título do Projeto
 
-Nome e marca do projeto
+BMA - Banco Municipal de Alimentos
 
 ## Identidade Visual (Marca, Design)
 
