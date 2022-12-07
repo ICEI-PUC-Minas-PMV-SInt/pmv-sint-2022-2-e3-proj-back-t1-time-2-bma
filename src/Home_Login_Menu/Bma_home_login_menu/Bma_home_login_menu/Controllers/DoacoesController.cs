@@ -45,6 +45,7 @@ namespace Bma_home_login_menu.Controllers
             return View(doacao);
         }
 
+
         // GET: Doacoes/Create
         public IActionResult Create()
         {

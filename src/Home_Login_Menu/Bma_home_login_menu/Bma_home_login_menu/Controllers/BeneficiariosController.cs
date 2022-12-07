@@ -45,7 +45,25 @@ namespace Bma_home_login_menu.Controllers
             return View(beneficiario);
         }
 
-        
+        // GET: Beneficiarios/Details/5
+        public async Task<IActionResult> Historico(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var beneficiario = await _context.Beneficiarios
+                .Include(t => t.Doacoes)
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (beneficiario == null)
+            {
+                return NotFound();
+            }
+
+            return View(beneficiario);
+        }
+
         public async Task<IActionResult>Dependentes(int? id)
         {
             if (id == null || _context.Beneficiarios == null)

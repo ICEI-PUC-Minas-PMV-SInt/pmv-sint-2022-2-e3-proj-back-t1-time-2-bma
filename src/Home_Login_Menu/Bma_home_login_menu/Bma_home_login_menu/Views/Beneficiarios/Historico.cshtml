@@ -1,0 +1,43 @@
+﻿@model Bma_home_login_menu.Models.Beneficiario
+
+@{
+    ViewData["Title"] = "Historico";
+}
+<h2>Histórico de Cestas Retiradas</h2>
+
+<a asp-controller="Beneficiarios" asp-action="Index" class="btn" style="color:#000 ; border:solid #86BCAA">Voltar</a>
+<div>
+    <div>
+        <h5>Beneficiário: @Model.Name</h5>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        Tipo de Cesta
+                    </th>
+                    <th>
+                        Data de Retirada
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Doacoes.OrderByDescending(c => c.Data))
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Tipo)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Data)
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+</div>
+<div>
+        <a class="btn btn-secondary" style="margin-top:10px" asp-action="Edit" asp-route-id="@Model?.Id">Editar</a> 
+        <a class="btn btn-secondary" asp-controller="Beneficiarios" asp-action="Index" class="btn" style="margin-top:10px" >Voltar</a>
+
+</div>
